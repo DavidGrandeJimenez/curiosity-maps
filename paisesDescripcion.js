@@ -234,7 +234,7 @@ curiosidad: `De antigua potencia humanística, científica, cultural e históric
         etniaMayoritaria: "Meditarráneos",
         monedaActual: "Euro",
         idiomaOficial: "griego",
-        banderita: `<img src="//imgs/chipre.png" class="banderita" alt="bandera Chipre" width="85" height="56.7">`,
+        banderita: `<img src="/imgs/chipre.png" class="banderita" alt="bandera Chipre" width="85" height="56.7">`,
         height: "60vh",
         fontSize: null, fontSize2: "1rem",
         curiosidad: `Sí, el país de la UE dividida de facto por la mitad y donde se produjo el primer 'corralito' económico de la UE. Y es que el país se divide entre Chipre del Sur (el típico, el ortodoxo y de habla griega, reconocido internacionalmente) y Chipre del Norte (solo reconocido por Turquía, pues tiene mayoría turca y en una guerra previa querían conquistar todo Chipre. Recuerda a Corea del Norte, aunque no tan dictatorial)`
@@ -279,7 +279,7 @@ curiosidad: `A ver, no tiene nada que ver con el postre de frutas varias. Aunque
    c32.628,13.212,55.652,45.181,55.652,82.546l0,0H256v-22.261l22.261-22.261l22.261,22.261l22.261-22.261v-22.261l22.261-33.391
    L300.522,267.13z"/>
 </svg>
-`, height: "60vh",
+`, height: "65vh",
 fontSize: null, fontSize2: "1rem",
 curiosidad: `Sí, en la descripción no está la bandera del país de Djokovic, si no una que les representa y a la vez no. Y es que la región del sur, la famosa Kosovo, está considerada por algunos países como país independiente y por otros como región serbia con cierta autonomía (de hecho, esta es la posición de España). También es curioso que en la Guerra de Yugoslavia fuese su capital, Belgrado, la única ciudad importante bombardeada por la OTAN`},
     {
@@ -407,8 +407,9 @@ curiosidad: `Uno de los países más complejos de Europa: están divididos en 3 
     fontSize: null, fontSize2: null,
     curiosidad: `De país capital de la EU a estar muy dividido entre el norte (Flandes) y el sur (básicamente franceses), hasta el punto de querer la independencia del norte. Normal, quien quiere estar en un territorio donde la gastronomía más característica sean las patatas fritas, pudiendo elegir la mayor variedad de cervezas del mundo.`},
 
-    { id: "38", nombre: "Luxemburgo", poblacion: "600 000", PIB: `${idPaisesDefinitivo[22].pib} millones de euros`, capital: "Luxemburgo", anioConstitucion: 1868, etniaMayoritaria: "Mucho francés", monedaActual: "Euro", idiomaOficial: "luxemburgués",
-     height: null,
+    { id: "38", nombre: "Luxemburgo", poblacion: "600 000", PIB: `${idPaisesDefinitivo[22].pib} millones de euros`, capital: "Luxemburgo", anioConstitucion: 1868, etniaMayoritaria: "Mucho francés", monedaActual: "Euro", idiomaOficial: "luxemburgués (francés)", banderita:`<svg xmlns="http://www.w3.org/2000/svg" width="85"
+    height="51" class="banderita" viewBox="0,0 5,3"><path fill="#ef3340" d="M0,0H5V1H0Z"/><path fill="#fff" d="M0,1H5V2H0Z"/><path fill="#00a3e0" d="M0,2H5V3H0Z"/></svg>`,
+     height: "40vh",
     fontSize: "1.8rem", fontSize2: null,
     curiosidad: `Resumen: un puñado de franceses todavía más elitistas. Hasta el punto que tienen un rey para un país enano. ¿Te imaginas que un territorio algo más pequeño que Extremadura tuviese una realeza exclusiva? Pues eso.` },
     {
