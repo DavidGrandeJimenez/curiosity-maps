@@ -513,7 +513,7 @@ curiosidad: `Uno de los países más complejos de Europa: están divididos en 3 
         etniaMayoritaria: "Nórdicos",
         monedaActual: "Corona sueca",
         idiomaOficial: "sueco",
-        banderita: `<img src="/imgs/gotland.svg" class="banderita2" alt="bandera Gotland" width="85" height="85">`,
+        banderita: `<img src="/imgs/Gotland.svg" class="banderita2" alt="bandera Gotland" width="85" height="85">`,
         height: "40vh",
         fontSize: "1.5rem", fontSize2: null,
         curiosidad: `Qué chulo que la bandera sea una oveja, que haya más ovejas que personas en esta isla sueca (la más grande del Mar Báltico), y que hasta sea una raza de oveja autóctona y única de esta región de Europa.`
