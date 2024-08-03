@@ -9,7 +9,7 @@ const paisesDescripcion = (idPaisesDefinitivo) => [
         height: "55vh",
         fontSize: "2rem",
         fontSize2: null,
-        curiosidad: `Con el idioma más parecido al de los vikingos, Islandia se erige sobre hielo y volcanes como uno de los países más seguros, transparentes, gélidos y con la catedral más surrealista del mundo.</br><img src="/imgs/catedral.webp" alt="catedral luterana Reykiavik" width="200" height="120" >`
+        curiosidad: `Con el idioma más parecido al de los vikingos, Islandia se erige sobre hielo y volcanes como uno de los países más seguros, transparentes, gélidos y con la catedral más surrealista del mundo.</br><img src="/imgs/catedral.webp" alt="catedral luterana Reykiavik" width="inherit" height="120" >`
 
     },
     {

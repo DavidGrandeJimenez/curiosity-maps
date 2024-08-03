@@ -307,7 +307,7 @@ section{
     .curiosidades{
         visibility: visible;
         width:49vw !important;
-        height:35vh !important;
+        height:fit-content !important;
         left: 1.5vw;
         bottom:0.5vh;
         padding:5px;
