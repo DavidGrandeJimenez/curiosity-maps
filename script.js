@@ -25,8 +25,9 @@ let pib = [];
 fetch(apiLink).then((response) => response.json().then(cada => {
 
     listaPaisesApi = Object.entries(cada.dimension.geo.category.index).map(([siglas, id]) => ({ siglas, id }));
+    
     pib = Object.values(cada.value);
-    pib = pib.slice(pib.indexOf(15911126.0), (pib.indexOf(8895.7)) + 1);
+    pib = pib.slice(pib.indexOf(15989795.6), (pib.indexOf(8895.7)) + 1);
     
     //Se asigna el pib a la lista de Paises
     for (let j = 0, z = 0; j < listaPaisesApi.length; j++) {
