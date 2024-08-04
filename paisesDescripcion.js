@@ -128,7 +128,7 @@ const paisesDescripcion = (idPaisesDefinitivo) => [
   fontSize: "2rem", fontSize2: null,
   curiosidad: `Prácticamente fue el primer país en independizarse de la URSS en 1990, aunque en primera ocasión fue reprimida por esta. </br></br>Curiosamente, actualmente es una gran defensora de la soberanía de Taiwán y apenas comercia directamente con China precisamente, por sus pretensiones con Taiwán.`},
     {
-        id: "13", nombre: "Bielorrusia", poblacion: "9 400 000", PIB: "59.47 mil millones de dólares", capital: "Minsk", anioConstitucion: 1994, etniaMayoritaria: "Eslavos orientales", monedaActual: "Rublo bielorruso", idiomaOficial: "bielorruso y ruso", banderita: `<svg class="banderita" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="50" viewBox="0 0 378 189">
+        id: "13", nombre: "Bielorrusia", poblacion: "9 400 000", PIB: "59.47 mil millones de dólares", capital: "Minsk", anioConstitucion: 1994, etniaMayoritaria: "Eslavos este", monedaActual: "Rublo bielorruso", idiomaOficial: "bielorruso y ruso", banderita: `<svg class="banderita" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="50" viewBox="0 0 378 189">
 	<title>Flag of Belarus</title>
 	<defs>
 		<clipPath id="p">

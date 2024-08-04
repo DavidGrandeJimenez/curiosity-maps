@@ -4,172 +4,218 @@
     --azul-claro-mas-oscuro: #29B6F6;
     --dorado-metalico: #FFD700;
     --dorado-metalico-mas-oscuro: #FFC107;
-  }
-body{
+}
+
+body {
     margin: 0;
     padding: 0;
 }
+
 .header {
-    background: linear-gradient(90deg, var(--azul-claro) ,var(--dorado-metalico));
-    color: rgb(0,68,68);
+    background: linear-gradient(90deg, var(--azul-claro), var(--dorado-metalico));
+    color: rgb(0, 68, 68);
     padding: 20px 0;
     opacity: 0.8;
     text-transform: uppercase;
-    font-family:"Pacifico";
-    font-weight:bold;
+    font-family: "Pacifico";
+    font-weight: bold;
     border-radius: 10px;
-    
-  }
-  
-  .container {
+
+}
+
+.container {
     width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .logo {
+}
+
+.logo {
     margin: 0;
     font-size: 2rem;
-  }
-  
-  .main-nav ul {
+}
+
+.main-nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-  }
-  
-  .main-nav ul li {
+}
+
+.main-nav ul li {
     display: inline-block;
     margin-left: 20px;
-  }
-  
-  .main-nav ul li:first-child {
+}
+
+.main-nav ul li:first-child {
     margin-left: 0;
-  }
-  
-  .main-nav ul li a {
+}
+
+.main-nav ul li a {
     color: darkcyan;
     text-decoration: none;
     transition: color 0.3s ease;
-  }
-  
-  .main-nav ul li a:hover {
+}
+
+.main-nav ul li a:hover {
     color: purple;
-  }
-section{
+}
+
+section {
     position: relative;
     width: 100%;
     height: 100vh;
     overflow: hidden;
 }
 
-.aesthetic{
+.aesthetic {
     position: absolute;
     top: -15vh;
     left: 2vh;
     width: 99vw;
-    height:99vh; 
+    height: 99vh;
     z-index: -1;
-    background-image:url("imgs/bpf.gif");
+    background-image: url("imgs/bpf.gif");
     background-size: cover;
     filter: blur(5px);
-    filter:opacity(0.7);
-    }
+    filter: opacity(0.7);
+}
 
-.pais{
-    stroke-opacity:0.5;
-    stroke-width:1px;
-    stroke:blue;
+.pais {
+    stroke-opacity: 0.5;
+    stroke-width: 1px;
+    stroke: blue;
 
-}.svgIslandia, .svgIslandia2{
+}
+
+.svgIslandia,
+.svgIslandia2 {
     position: absolute;
-    width:95vw;
-    height:85vh;
-    z-index:1;
+    width: 95vw;
+    height: 85vh;
+    z-index: 1;
     top: 34vh;
     left: 43vw;
-    transform:scale(1.8);
+    transform: scale(1.8);
 
-}.pais:hover{
-    stroke-opacity:0.7;
-    stroke-width:2px;
-    stroke:midnightblue;
+}
 
-}.mi-clase, .mi-clase2 {
+.pais:hover {
+    stroke-opacity: 0.7;
+    stroke-width: 2px;
+    stroke: midnightblue;
+
+}
+
+.mi-clase,
+.mi-clase2 {
     font-style: italic;
-    font-family: 'Times New Roman', Times, serif,sans-serif;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
     line-height: 1.5;
     display: inline-block;
     position: fixed;
     background-color: aliceblue;
     color: black;
-    border:2px solid black;
+    border: 2px solid black;
     padding: 10px;
     border-radius: 15px;
     pointer-events: none;
-    z-index:20;
+    z-index: 20;
     opacity: 0;
     transition: opacity 1s ease;
-    padding-left:2vh;
+    padding-left: 2vh;
     padding-top: -10vh;
 
 
-}.mi-clase h4{
-    color:black;
-    font-weight:bold;
+}
 
-}.mi-clase p{
-    font-weight:lighter;
+.mi-clase h4 {
+    color: black;
+    font-weight: bold;
 
-}.mi-clase{
-    opacity:1;
-    
-}g{
+}
+
+.mi-clase p {
+    font-weight: lighter;
+
+}
+
+.mi-clase {
+    opacity: 1;
+
+}
+
+g {
     background-color: red;
-}.categoria{
-    font-weight:bold;
+}
+
+.categoria {
+    font-weight: bold;
     font-style: italic;
-    font-family: 'Times New Roman', Times, serif,sans-serif;
-    
-}.irlanda{
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+
+}
+
+.irlanda {
     transform: scale(2) translate(2.5vw, -6.0vh);
-}.suecia{
+}
+
+.suecia {
     transform: scale(2) translate(2.5vw, -6.7vh);
-}.gabachos{
+}
+
+.gabachos {
     transform: scale(2) translate(2.5vw, -6.7vh);
-}.espanita{
+}
+
+.espanita {
     transform: scale(2) translate(2.8vw, -6.5vh);
-}.ceuta{
+}
+
+.ceuta {
     transform: scale(0.3) translate(51vw, 140vh);
-}.melilla{
+}
+
+.melilla {
     transform: scale(0.3) translate(55vw, 142vh);
-}.Canarias{
+}
+
+.Canarias {
     transform: scale(0.06) translate(150vw, 700vh);
-}.portugal{
-    transform: scale(1) translate(0.4vw,-1.2vh);
-}.britania{
-    transform: scale(1) translate(0.3vw,-1.8vh);    
-}.madeira{
-    transform: scale(1) translate(0.3vw,-12vh);     
-}.banderita{
+}
+
+.portugal {
+    transform: scale(1) translate(0.4vw, -1.2vh);
+}
+
+.britania {
+    transform: scale(1) translate(0.3vw, -1.8vh);
+}
+
+.madeira {
+    transform: scale(1) translate(0.3vw, -12vh);
+}
+
+.banderita {
     position: absolute;
     top: 3vh;
     right: 4vh;
-    border:0.1rem solid midnightblue;
-    padding:0;
-    margin:0;
+    border: 0.1rem solid midnightblue;
+    padding: 0;
+    margin: 0;
 
-}.banderita2{
-    border:0.1rem solid midnightblue;
-    padding:0;
-    margin-left:35%;
+}
 
-}.curiosidades{
+.banderita2 {
+    border: 0.1rem solid midnightblue;
+    padding: 0;
+    margin-left: 35%;
+
+}
+
+.curiosidades {
     position: absolute;
-    background: linear-gradient(145deg,rgba(173, 216, 230, 0.8) 5%
-    , aliceblue,rgba(173, 216, 230, 0.8)99%);
+    background: linear-gradient(145deg, rgba(173, 216, 230, 0.8) 5%, aliceblue, rgba(173, 216, 230, 0.8)99%);
     ;
     right: 3vw;
     top: 40%;
@@ -177,207 +223,305 @@ section{
     width: 13vw;
     height: 60vh;
     padding: 3vh;
-    z-index:30;
+    z-index: 30;
     border-radius: 10px;
-    border:3px solid rgba(0,68,68,0.7); ;
+    border: 3px solid rgba(0, 68, 68, 0.7);
+    ;
 
-}.tip, .tipPequeno{
+}
+
+.tip,
+.tipPequeno {
     font-style: italic;
-    font-family: 'Times New Roman', Times, serif,sans-serif;
-    color:darkred;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    color: darkred;
     text-transform: uppercase;
     text-decoration: underline;
-    padding:0;
+    padding: 0;
     margin: 0;
 
-}.tip{
+}
+
+.tip {
     font-size: 3rem;
 }
-.curiosidad{
+
+.curiosidad {
     font-style: italic;
-    font-family: 'Times New Roman', Times, serif,sans-serif;
-    color:black;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    color: black;
     font-size: 1.1rem;
-    padding-top:2vh;
+    padding-top: 2vh;
     margin: 0;
     line-height: 1.5;
 }
-@media screen and (min-width: 401) and (max-width: 1099px){
-    .aesthetic {
-      position: absolute;
-      top: -8vh;
-      left: -15vh;
-    }
-    .header {
-        background: linear-gradient(90deg, var(--azul-claro) ,var(--dorado-metalico));
-        color: red;}
 
-    .logo{
+
+/***********************************************************************************************************************************/
+
+@media screen and (min-width: 501) and (max-width: 1099px) {
+    .aesthetic {
+        position: absolute;
+        top: -8vh;
+        left: -15vh;
+    }
+
+    .header {
+        background: linear-gradient(90deg, var(--azul-claro), var(--dorado-metalico));
+        color: red;
+    }
+
+    .logo {
         font-size: 1.4rem;
 
-    }.svgIslandia{
-        left: 28vw;
-    
-    }.portugal{
-        transform: scale(1) translate(-1.5vw,-1.8vh);
-    }.britania{
-        transform: scale(1) translate(-1.5vw,-1.8vh);
-    }.irlandaNorte{
-        transform: translate(9vw,5vh);
-    }.ceuta{
-        transform: scale(0.3) translate(64vw, 135vh);
-    }.melilla{
-        transform: scale(0.3) translate(68vw, 137vh);
-    }.Canarias{
-        transform: scale(0.06) translate(200vw, 700vh);
-    }.noruega{
-        transform: scale(1) translate(-1.9vw, 0vh);}   
-        
-        
-
-    
-}@media screen and (max-width: 400px){
-    .aesthetic {
-      position: absolute;
-      left: -140vw;
-      top:-28.5vh;
-      width: 240vw;
-      height: 115vh;
     }
-    .header {
-        background: linear-gradient(90deg, var(--azul-claro) ,var(--dorado-metalico));
-        color: purple;}
 
-    .logo{
+    .svgIslandia {
+        left: 28vw;
+
+    }
+
+    .portugal {
+        transform: scale(1) translate(-1.5vw, -1.8vh);
+    }
+
+    .britania {
+        transform: scale(1) translate(-1.5vw, -1.8vh);
+    }
+
+    .irlandaNorte {
+        transform: translate(9vw, 5vh);
+    }
+
+    .ceuta {
+        transform: scale(0.3) translate(64vw, 135vh);
+    }
+
+    .melilla {
+        transform: scale(0.3) translate(68vw, 137vh);
+    }
+
+    .Canarias {
+        transform: scale(0.06) translate(200vw, 700vh);
+    }
+
+    .noruega {
+        transform: scale(1) translate(-1.9vw, 0vh);
+    }
+
+
+    /*******************************************************************************************************************************/
+
+}
+
+@media screen and (max-width: 500px) {
+    .aesthetic {
+        position: absolute;
+        left: -100vw;
+        top: -43vh;
+        width: 240vw;
+        height: 115vh;
+    }
+
+    .header {
+        background: linear-gradient(90deg, var(--azul-claro), var(--dorado-metalico));
+        color: purple;
+    }
+
+    .logo {
         font-size: 0.8rem;
 
-    }.main-nav ul li{
-        font-size: 0.5rem;
-    }.curiosidades{
+    }
+
+    .main-nav ul li {
+        font-size: 0.8rem;
+    }
+
+    .curiosidades {
         visibility: hidden;
         font-size: 0.2rem;
         position: absolute;
-        top:65vh;
-        right:47vw;
+        top: 65vh;
+        right: 47vw;
         height: 30vh;
-        padding:10px;
+        padding: 10px;
         width: 42vw;
-    }.tip, .curiosidad{
+    }
+
+    .tip,
+    .curiosidad {
         font-size: 1rem;
     }
-    
-    .svgIslandia{
+
+    .svgIslandia {
         transform: scale(0.9);
-        top:-0.5px;
-        left: -40vw;
+        top: -3vh;
+        left: -35vw;
         width: 235vw;
-    }.portugal{
-        transform: scale(1) translate(-13vw,-1.8vh);
-    }.britania{
-        transform: scale(1) translate(-14vw,-1.2vh);
-    }.irlandaNorte{
-        transform: translate(17vw,5vh);
-    }.ceuta{
+    }
+
+    .portugal {
+        transform: scale(1) translate(-12vw, -1.9em);
+    }
+
+    .britania {
+        transform: scale(1) translate(-14vw, -1.2vh);
+    }
+
+    .irlandaNorte {
+        transform: translate(17vw, 5vh);
+    }
+
+    .ceuta {
         transform: scale(0.3) translate(148vw, 140vh);
-    }.melilla{
+    }
+
+    .melilla {
         transform: scale(0.3) translate(155vw, 145vh);
-    }.Canarias{
+    }
+
+    .Canarias {
         transform: scale(0.05) translate(650vw, 850vh);
-    }.noruega{
-        transform: scale(1) translate(-14vw, 0vh);
-    }.madeira{
-        transform: scale(1.5) translate(-20vw,-23vh);
-    }.mi-clase{
+    }
+
+    .noruega {
+        transform: scale(1) translate(-13vw, -1em);
+    }
+
+    .madeira {
+        transform: scale(1.5) translate(-20vw, -23vh);
+    }
+
+    .mi-clase {
         position: absolute;
         transform: scale(0.5);
         font-size: 1.3rem !important;
-        height: 65vh;
+        height: fit-content;
         width: 75vw !important;
-        top:45vh !important;
-        left:37vw !important;
-        
-    }.banderita{
-        border:0.1rem solid midnightblue;
-        padding:0;
-        margin-left:35%;
+        top: 44vh !important;
+        left: 35vw !important;
+
+    }
+
+    .banderita {
+        border: 0.1rem solid midnightblue;
+        padding: 0;
+        margin-left: 35%;
         position: static;
-        top:0;
-        left:0;
+        top: 0;
+        left: 0;
     }
-    .curiosidades{
+
+    .curiosidades {
         visibility: visible;
-        width:49vw !important;
-        height:fit-content !important;
+        width: 49vw !important;
+        height: fit-content !important;
         left: 1.5vw;
-        bottom:0.5vh;
-        padding:5px;
+        bottom: 0.5vh;
+        padding: 5px;
 
-    }.tipPequeno{
-        font-size: 1.2rem !important;
-    }.tip{
-        font-size: 1.5rem !important;
-    }.curiosidad{
-        font-size: 0.75rem !important;
-        padding-top:0.5vh;    
     }
-  }
 
+    .tipPequeno {
+        font-size: 1.2rem !important;
+    }
 
-  /*Movidas 2*/
-.noche{
-    background-color: black;
-    width: 120%; 
-}  
-.svgIslandia2{
-    transform: scale(2);
-    top:45vh;
+    .tip {
+        font-size: 1.5rem !important;
+    }
+
+    .curiosidad {
+        font-size: 0.75rem !important;
+        padding-top: 0.5vh;
+    }
 }
-.aesthetic2{
+
+@media screen and (max-width: 400px) {
+    .portugal {
+        transform: scale(1) translate(-15vw, -0.9em);
+    }
+}
+
+/*************************************************************************************************************************************/
+/*Movidas 2*/
+.noche {
+    background-color: black;
+    width: 120%;
+}
+
+.svgIslandia2 {
+    transform: scale(2);
+    top: 45vh;
+}
+
+.aesthetic2 {
     background-color: black;
     position: absolute;
     top: -15vh;
     left: 0vh;
     width: 120%;
-    height:120vh; 
+    height: 120vh;
     z-index: -1;
-    } 
-.svgIslandia2:hover{
+}
+
+.svgIslandia2:hover {
     cursor: url('imgs/circle.cur'), auto;
 
-}.pais3:hover{
-    stroke-opacity:1;
-    stroke-width:2px;
-    stroke:palegoldenrod;
+}
+
+.pais3:hover {
+    stroke-opacity: 1;
+    stroke-width: 2px;
+    stroke: palegoldenrod;
     fill-opacity: 1;
 
 }
-.pais3{
-        stroke-opacity:0.5;
-        stroke-width:1px;
-        stroke:blue;
-}.grup0{
-    fill: rgb(64, 64, 64);
-}.grup1{
-    fill:  #676701;
 
-}.grup2{
+.pais3 {
+    stroke-opacity: 0.5;
+    stroke-width: 1px;
+    stroke: blue;
+}
+
+.grup0 {
+    fill: rgb(64, 64, 64);
+}
+
+.grup1 {
+    fill: #676701;
+
+}
+
+.grup2 {
     fill: #808002;
 
-}.grup3{
+}
+
+.grup3 {
     fill: #999900;
 
-}.grup4{
+}
+
+.grup4 {
     fill: #cccc00;
 
-}.grup5{
+}
+
+.grup5 {
     fill: #ffff66;
 
-}.grup6{
+}
+
+.grup6 {
     fill: #ffff00;
-}.mi-clase2{
+}
+
+.mi-clase2 {
     background-color: goldenrod;
-}.tip2{
-    color:white;
+}
+
+.tip2 {
+    color: white;
     font-size: 2rem;
     text-transform: uppercase;
     text-decoration: underline;
@@ -385,14 +529,18 @@ section{
     margin: 1vh 0;
 
 
-}.curiosidad2{
+}
+
+.curiosidad2 {
     color: white;
     font-size: 1.2rem;
     font-style: italic;
-    font-family: 'Times New Roman', Times, serif,sans-serif;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
     line-height: 1.5;
 
-}.curiosidades2{
+}
+
+.curiosidades2 {
     background-color: rgba(218, 165, 32, 0.4);
     position: absolute;
     right: 80vw;
@@ -401,8 +549,73 @@ section{
     width: 13vw;
     height: 62vh;
     padding: 3vh;
-    z-index:30;
+    z-index: 30;
     border-radius: 10px;
-    border:3px solid blue; ;
+    border: 3px solid blue;
+    ;
 
+}
+
+@media screen and (max-width: 500px) {
+
+    .tip2,
+    .curiosidad2 {
+        font-size: 1rem;
+    }
+
+    .svgIslandia2 {
+        transform: scale(0.9);
+        top: -3vh;
+        left: -35vw;
+        width: 235vw;
+    }
+
+    .mi-clase2 {
+        position: absolute;
+        transform: scale(0.5);
+        font-size: 1.3rem !important;
+        height: 65vh;
+        width: 75vw !important;
+        top: 150vh !important;
+        left: 35vw !important;
+        display:block !important;
+        
+    }
+    .mi-clase2 p {
+        font-size: 2rem;
+    }
+
+    .banderita2 {
+        border: 0.1rem solid midnightblue;
+        padding: 0;
+        margin-left: 35%;
+        position: static;
+        top: 0;
+        left: 0;
+    }
+
+    .curiosidades2 {
+        visibility: visible;
+        width: 49vw !important;
+        height: fit-content !important;
+        left: 2vw;
+        bottom: 0.5vh;
+        padding: 5px;
+        font-size: 0.2rem;
+        top: 60vh;
+        right: 47vw;
+    }
+
+    /*.tipPequeno {
+        font-size: 1.2rem !important;
+    }*/
+
+    .tip2 {
+        font-size: 1.5rem !important;
+    }
+
+    .curiosidad2 {
+        font-size: 0.75rem !important;
+        padding-top: 0.5vh;
+    }
 }
