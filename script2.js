@@ -1,5 +1,5 @@
 // 0. variables
-const apiLink2 = "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_cb_e?format=JSON&lang=EN&time=2022";
+const apiLink2 = "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_cb_e?format=JSON&lang=EN&time=2022&nrg_bal=AFC";
 
 const nodeListUseless = document.querySelectorAll("#paisG2");
 const paisesMapa = [...nodeListUseless];
@@ -25,15 +25,22 @@ const fetching = async () => {
 
         listaPaises = Object.entries(datosJson.dimension.geo.category.index).map(([siglas, id]) => ({ siglas, id }));
 
-        consumicion = Object.values(datosJson.value).slice(1069, 1109);
-        delete consumicion[29]; //omitir a Liechtenstein
+        consumicion = Object.values(datosJson.value).slice(0, 42);
+        console.dir(consumicion);
+        consumicion.splice(29, 0, "?");
+        consumicion.splice(32, 0, "?");
+        consumicion.splice(41, 0, "?");
+        
+        
 
         listaPaises.map((pais, index) => {
             pais.nombre = Object.values(datosJson.dimension.geo.category.label)[index];
+
         })
+        console.dir(listaPaises);
         //Poner consumicion en la listaPaises
         for (let w = 0, z = 0; w < listaPaises.length; w++) {
-            if (w === 41 || w === 32 || w === 29 || w === 30) {
+            if (w === 29 || w === 30 || w === 32) {
                 listaPaises[w].consumicion = "No hay datos sobre consumo eléctrico de este país en Eurostat";
             } else {
                 if (z == 29) {

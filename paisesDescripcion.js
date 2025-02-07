@@ -89,7 +89,7 @@ const paisesDescripcion = (idPaisesDefinitivo) => [
         curiosidad: `La gente del país de los Nokias indestructubles tiene tres activiades favoritas: la equitación sin caballos, escuchar heavy metal y comprar alcohol con menos impuestos en Estonia xD</br></br><img src="/imgs/nokia.png" alt="Nokia logo" width="150" height="45">`
     },
     {
-        id: "8", nombre: "Islas Aland (integradas en Finlandia)", poblacion: "30 000", PIB: "mil millones 563 millones de dólares", capital: "Mariehamn", anioConstitucion: 2009, etniaMayoritaria: "Suominen/Finlandeses y Nórdicos", monedaActual: "Euro", idiomaOficial: "finlandés y sueco", banderita: `<svg xmlns="http://www.w3.org/2000/svg" class="banderita2" width="85" height="55.6"viewBox="0 0 52 34"><path d="M0 0h52v34H0Z" fill="#0064AD"/><path d="M0 17h52M21 0v34" stroke-width="10" stroke="#FFD300"/><path d="M0 17h52M21 0v34" stroke-width="4" stroke="#DA0E15"/></svg>`, height: "48vh",
+        id: "8", nombre: "Islas Aland (integradas en Finlandia)", poblacion: "30 000", PIB: `Integrado en Finlandia`, capital: "Mariehamn", anioConstitucion: 2009, etniaMayoritaria: "Suominen/Finlandeses y Nórdicos", monedaActual: "Euro", idiomaOficial: "finlandés y sueco", banderita: `<svg xmlns="http://www.w3.org/2000/svg" class="banderita2" width="85" height="55.6"viewBox="0 0 52 34"><path d="M0 0h52v34H0Z" fill="#0064AD"/><path d="M0 17h52M21 0v34" stroke-width="10" stroke="#FFD300"/><path d="M0 17h52M21 0v34" stroke-width="4" stroke="#DA0E15"/></svg>`, height: "48vh",
         fontSize: "1.5rem", fontSize2: null,
         curiosidad: `Recomiendo encarecidamente que te escuches su himno, es simplemento precioso <br><br> <iframe src="https://www.youtube.com/embed/XGKldSW4WrU" frameborder="0" allowfullscreen width="180px" height="100px"></iframe>`},
 
@@ -128,7 +128,7 @@ const paisesDescripcion = (idPaisesDefinitivo) => [
   fontSize: "2rem", fontSize2: null,
   curiosidad: `Prácticamente fue el primer país en independizarse de la URSS en 1990, aunque en primera ocasión fue reprimida por esta. </br></br>Curiosamente, actualmente es una gran defensora de la soberanía de Taiwán y apenas comercia directamente con China precisamente, por sus pretensiones con Taiwán.`},
     {
-        id: "13", nombre: "Bielorrusia", poblacion: "9 400 000", PIB: "59.47 mil millones de dólares", capital: "Minsk", anioConstitucion: 1994, etniaMayoritaria: "Eslavos este", monedaActual: "Rublo bielorruso", idiomaOficial: "bielorruso y ruso", banderita: `<svg class="banderita" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="50" viewBox="0 0 378 189">
+        id: "13", nombre: "Bielorrusia", poblacion: "9 400 000", PIB: "73,78 mil millones de dólares", capital: "Minsk", anioConstitucion: 1994, etniaMayoritaria: "Eslavos este", monedaActual: "Rublo bielorruso", idiomaOficial: "bielorruso y ruso", banderita: `<svg class="banderita" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="50" viewBox="0 0 378 189">
 	<title>Flag of Belarus</title>
 	<defs>
 		<clipPath id="p">
@@ -151,7 +151,7 @@ const paisesDescripcion = (idPaisesDefinitivo) => [
 fontSize: "2rem", fontSize2: null,
 curiosidad: `La Rusia de Hacendado. ¿Sabes cuál ha sido una de las mayores empresas de este país? Pues el World of Tanks xD. </br> Spoiler: salió mal. Esa empresa se piró cuando comenzó la movida entre Rusia y Ucrania.`},
     {
-        id: "14", nombre: "Rusia", poblacion: "145 000 000", PIB: "1.67 trillones de dólares", capital: "Moscú", anioConstitucion: 1993, etniaMayoritaria: "Eslavos orientales", monedaActual: "Rublo ruso", idiomaOficial: "ruso", banderita: `<svg class="banderita" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 6" width="85" height="56.7">
+        id: "14", nombre: "Rusia", poblacion: "145 000 000", PIB: "2,26 billones de dólares", capital: "Moscú", anioConstitucion: 1993, etniaMayoritaria: "Eslavos orientales", monedaActual: "Rublo ruso", idiomaOficial: "ruso", banderita: `<svg class="banderita" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 6" width="85" height="56.7">
     <rect fill="#fff" width="9" height="3"/>
     <rect fill="#d52b1e" y="3" width="9" height="3"/>
     <rect fill="#0039a6" y="2" width="9" height="2"/>
@@ -413,7 +413,7 @@ curiosidad: `Uno de los países más complejos de Europa: están divididos en 3 
     fontSize: "1.8rem", fontSize2: null,
     curiosidad: `Resumen: un puñado de franceses todavía más elitistas. Hasta el punto que tienen un rey para un país enano. ¿Te imaginas que un territorio algo más pequeño que Extremadura tuviese una realeza exclusiva? Pues eso.` },
     {
-        id: "39", nombre: "Francia", poblacion: "67 100 000", PIB: `${idPaisesDefinitivo[9].pib} millones de euros`, capital: "París", anioConstitucion: 1958, etniaMayoritaria: "Mucho francés", monedaActual: "Euro", idiomaOficial: "francés", banderita: `<?xml version="1.0" standalone="no"?>
+        id: "39", nombre: "Francia", poblacion: "67 100 000", PIB: `${idPaisesDefinitivo[9].pib} millones de euros`, capital: "París", anioConstitucion: 1958, etniaMayoritaria: "Germanos", monedaActual: "Euro", idiomaOficial: "francés", banderita: `<?xml version="1.0" standalone="no"?>
     <svg
         width="85"
         height="56.7"
@@ -431,7 +431,7 @@ curiosidad: `Uno de los países más complejos de Europa: están divididos en 3 
     </svg>`,
         height: "62vh",
         fontSize: null, fontSize2: "1rem",
-        curiosidad: `Puff. ¿Para qué quieres saber sobre Francia? Sólo hay franceses. </br></br> Solo te digo que la bandera de la descripción es realmente francesa. Y es que la Guayana Francesa (al lado de Surinam y encima de Brasil) es una provincia de Francia, pero tal cual, no es una colonia. En su momento en el referéndum de independencia votaron a favor de seguir en Francia... </br></br> Sin comentarios.`
+        curiosidad: `Solo te digo que la bandera de la descripción es realmente francesa. Y es que la Guayana Francesa (al lado de Surinam y encima de Brasil) es una provincia de Francia, pero tal cual, no es una colonia. En su momento en el referéndum de independencia votaron a favor de seguir en Francia.`
     },
     { id: "40", nombre: "Córcega (integrado en Francia)", poblacion: "300 000", height: null,
     fontSize: null, fontSize2: null,
@@ -486,7 +486,7 @@ curiosidad: `Uno de los países más complejos de Europa: están divididos en 3 
         id: "53",
         nombre: "Madeira (integrado en Portugal)",
         poblacion: "300 000",
-        PIB: "4.895,9 millones de dólares",
+        PIB: "Integrado en Portugal",
         capital: "Funchal",
         anioConstitucion: 1976,
         etniaMayoritaria: "Mediterráneos",
