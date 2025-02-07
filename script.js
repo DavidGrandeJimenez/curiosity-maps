@@ -17,21 +17,20 @@ document.body.appendChild(divFlotante);
 let paisObjetivo;
 let banderaFuck;
 
-const apiLink = "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_gdp?format=JSON&lang=EN&time=2022";
+const apiLink = "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_gdp?format=JSON&lang=EN&time=2022&na_item=B1GQ&geo=BE&geo=BG&geo=CZ&geo=DK&geo=DE&geo=EE&geo=IE&geo=EL&geo=ES&geo=FR&geo=HR&geo=IT&geo=CY&geo=LV&geo=LT&geo=LU&geo=HU&geo=MT&geo=NL&geo=AT&geo=PL&geo=PT&geo=RO&geo=SI&geo=SK&geo=FI&geo=SE&geo=IS&geo=LI&geo=NO&geo=CH&geo=UK&geo=BA&geo=ME&geo=MK&geo=AL&geo=RS&geo=TR&geo=XK";    
 let listaPaisesApi = [];
 let pib = [];
 
 //Fetch para recoger en arrays los datos del PIB de Eurostat
 fetch(apiLink).then((response) => response.json().then(cada => {
-
     listaPaisesApi = Object.entries(cada.dimension.geo.category.index).map(([siglas, id]) => ({ siglas, id }));
     
     pib = Object.values(cada.value);
-    pib = pib.slice(pib.indexOf(15989795.6), (pib.indexOf(8895.7)) + 1);
+    pib = pib.slice(pib.indexOf(563543.6), (pib.indexOf(8895.7)) + 1);
     
     //Se asigna el pib a la lista de Paises
     for (let j = 0, z = 0; j < listaPaisesApi.length; j++) {
-        if (j === 1 || j === 2 || j == 38) {
+        if (j === 31) {
             listaPaisesApi[j].pib = "?"; //Si no hay datos de PIB en Eurostat de esos paises, se pone "?"
         } else {
             listaPaisesApi[j].pib = pib[z];
@@ -39,7 +38,6 @@ fetch(apiLink).then((response) => response.json().then(cada => {
             z++;
         }
     };
-
     const paisesDescripcion = descripciones(listaPaisesApi); //Se pasa la listaPaisesApi para obtener todos los datos restantes de los paises
 
 
@@ -55,7 +53,6 @@ fetch(apiLink).then((response) => response.json().then(cada => {
     paisesMapa.map((cada) => cada.addEventListener('mouseover', function (event) {
         cada.style.fill = "blue";
         paisObjetivo = cada.firstElementChild.id; //se recoge el id del pais que está debajo del ratón
-
         document.addEventListener("mousemove", function (event) {
             let x = event.clientX;
             let y = event.clientY;

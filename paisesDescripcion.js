@@ -28,7 +28,7 @@ const paisesDescripcion = (idPaisesDefinitivo) => [
         curiosidad: `Aparte de los chistes sobre el Brexit, ¿sabías que tiene símbolos institucionales como el dragón (Gales), el unicornio (Escocia) y el mandato más corto del mundo de una primera ministra?`
     },
     {
-        id: "2", nombre: "Noruega", poblacion: "5 400 000", PIB: `${idPaisesDefinitivo[36].pib} millones de euros`, capital: "Oslo", anioConstitucion: 1814, etniaMayoritaria: "Nórdicos", monedaActual: "Corona noruega", idiomaOficial: "noruego", banderita: `<svg xmlns="http://www.w3.org/2000/svg" class="banderita" width="85" height="61.8" version="1.1" viewBox="0 0 22 16">
+        id: "2", nombre: "Noruega", poblacion: "5 400 000", PIB: `${idPaisesDefinitivo[29].pib} millones de euros`, capital: "Oslo", anioConstitucion: 1814, etniaMayoritaria: "Nórdicos", monedaActual: "Corona noruega", idiomaOficial: "noruego", banderita: `<svg xmlns="http://www.w3.org/2000/svg" class="banderita" width="85" height="61.8" version="1.1" viewBox="0 0 22 16">
 	<rect width="22" height="16" fill="#ba0c2f"/>
 	<path d="M0,8h22M8,0v16" stroke="#fff" stroke-width="4"/>
 	<path d="M0,8h22M8,0v16" stroke="#00205b" stroke-width="2"/>
@@ -38,7 +38,7 @@ const paisesDescripcion = (idPaisesDefinitivo) => [
         curiosidad: `¿Sabes que Noruega tiene el fondo soberano más grande del mundo? <br>Si se repartiese entre todos sus habitantes, cada noruego obtendría 200 mil€ aprox.`
     },
     {
-        id: "3", nombre: "Islas Feroe (integradas en Dinamarca)", poblacion: "53 890", PIB: `${idPaisesDefinitivo[10].pib} millones de euros`, capital: "Tórshavn", anioConstitucion: 1948, etniaMayoritaria: "Nórdicos", monedaActual: "Corona feroesa y Corona danesa", idiomaOficial: "feroés", banderita: `
+        id: "3", nombre: "Islas Feroe (integradas en Dinamarca)", poblacion: "53 890", PIB: `${idPaisesDefinitivo[3].pib} millones de euros`, capital: "Tórshavn", anioConstitucion: 1948, etniaMayoritaria: "Nórdicos", monedaActual: "Corona feroesa y Corona danesa", idiomaOficial: "feroés", banderita: `
     <svg xmlns="http://www.w3.org/2000/svg" class="banderita2" width="100" height="72.7" viewBox="0 0 22 16">
     <rect fill="#FFF" width="22" height="16"/>
     <g fill="#005EB8">
@@ -62,7 +62,7 @@ const paisesDescripcion = (idPaisesDefinitivo) => [
     curiosidad: `Irlanda del Norte sigue estando dividida entre a favor y en contra de su pertenencia a Reino Unido, y es que con el Brexit hay más voces internas a favor de hacer referéndums de independencia. (He ahí el "...por ahora" de la descripción) <br><br>
     Pd: La bandera sería la de Reino Unido, pero mola mucho más la bandera de la ex-provincia irlandesa de Últser.` },
     {
-        id: "5", nombre: "Irlanda", poblacion: "5 033 000", PIB: `${idPaisesDefinitivo[13].pib} millones de euros`, capital: "Dublín", anioConstitucion: 1937, etniaMayoritaria: "Anglo-irlandeses", monedaActual: "Euro", idiomaOficial: "irlandés", banderita: `<?xml version="1.0" encoding="UTF-8"?>
+        id: "5", nombre: "Irlanda", poblacion: "5 033 000", PIB: `${idPaisesDefinitivo[6].pib} millones de euros`, capital: "Dublín", anioConstitucion: 1937, etniaMayoritaria: "Anglo-irlandeses", monedaActual: "Euro", idiomaOficial: "irlandés", banderita: `<?xml version="1.0" encoding="UTF-8"?>
     <svg xmlns="http://www.w3.org/2000/svg" width="100" height="50" class="banderita" viewBox="0 0 1200 600">
        <rect fill="#169b62" width="1200" height="600" />
        <rect fill="#fff" x="400" width="800" height="600" />
@@ -74,13 +74,13 @@ const paisesDescripcion = (idPaisesDefinitivo) => [
         curiosidad: `El país de las liras, los duendes verdes, los alquileres carísimos y de la cerveza negra Guinness es también el principal país donde se asientan las grandes tecnológicas (Google, Amazon, etc). Desde ahí dan los servicios al resto de la UE`
     },
     {
-        id: "6", nombre: "Suecia", poblacion: "10 400 000", PIB: `${idPaisesDefinitivo[33].pib} millones de euros`, capital: "Estocolmo", anioConstitucion: 1974, etniaMayoritaria: "Nórdicos", monedaActual: "Corona sueca", idiomaOficial: "sueco", banderita: `<?xml version="1.0" encoding="UTF-8"?><svg class="banderita" width="85" height="53.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10"><path fill="#006aa7" d="M0,0H16V10H0Z"/><path fill="#fecc00" d="M0,4H5V0H7V4H16V6H7V10H5V6H0Z"/></svg>`,
+        id: "6", nombre: "Suecia", poblacion: "10 400 000", PIB: `${idPaisesDefinitivo[26].pib} millones de euros`, capital: "Estocolmo", anioConstitucion: 1974, etniaMayoritaria: "Nórdicos", monedaActual: "Corona sueca", idiomaOficial: "sueco", banderita: `<?xml version="1.0" encoding="UTF-8"?><svg class="banderita" width="85" height="53.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10"><path fill="#006aa7" d="M0,0H16V10H0Z"/><path fill="#fecc00" d="M0,4H5V0H7V4H16V6H7V10H5V6H0Z"/></svg>`,
         height: "50vh",
         fontSize: null, fontSize2: null,
         curiosidad: `De aquí son dos cosas inimaginables: thePirateBay y la comida más desagradable del mundo (Surströmming: arenque fermentado).</br><img src="/imgs/pirate.png" alt="thePirateBay logo" width="100" height="120" >`
     },
     {
-        id: "7", nombre: "Finlandia", poblacion: "5 500 000", PIB: `${idPaisesDefinitivo[32].pib} millones de euros`, capital: "Helsinki", anioConstitucion: 2000, etniaMayoritaria: "Suominen/Finlandeses", monedaActual: "Euro", idiomaOficial: "finlandés", banderita: `<svg class="banderita" xmlns="http://www.w3.org/2000/svg" width="100" height="61.1" viewBox="0 0 18 11">
+        id: "7", nombre: "Finlandia", poblacion: "5 500 000", PIB: `${idPaisesDefinitivo[25].pib} millones de euros`, capital: "Helsinki", anioConstitucion: 2000, etniaMayoritaria: "Suominen/Finlandeses", monedaActual: "Euro", idiomaOficial: "finlandés", banderita: `<svg class="banderita" xmlns="http://www.w3.org/2000/svg" width="100" height="61.1" viewBox="0 0 18 11">
     <rect width="18" height="11" fill="#fff"/>
     <path d="M0,5.5h18M6.5,0v11" stroke="#002F6C" stroke-width="3"/>
     </svg>`,
@@ -95,14 +95,14 @@ const paisesDescripcion = (idPaisesDefinitivo) => [
 
 
     {
-        id: "9", nombre: "Dinamarca", poblacion: "5 800 000", PIB: `${idPaisesDefinitivo[10].pib} millones de euros`, capital: "Copenhague", anioConstitucion: 1953, etniaMayoritaria: "Nórdicos", monedaActual: "Corona danesa", idiomaOficial: "danés", banderita: `<svg class="banderita" width="85" height="64.3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 28">
+        id: "9", nombre: "Dinamarca", poblacion: "5 800 000", PIB: `${idPaisesDefinitivo[3].pib} millones de euros`, capital: "Copenhague", anioConstitucion: 1953, etniaMayoritaria: "Nórdicos", monedaActual: "Corona danesa", idiomaOficial: "danés", banderita: `<svg class="banderita" width="85" height="64.3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 28">
     <path fill="#c8102e" d="M0,0H37V28H0Z"/>
     <path stroke="#fff" stroke-width="4" d="M0,14h37M14,0v28"/>
   </svg>`, height: "38vh",
   fontSize: "2rem", fontSize2: null,
   curiosidad: `¿Te imaginas que dentro de una capital hubiese otra ciudad supuestamente independiente donde muchas drogas son legales? Pues ese es el caso de Christiania, en Copenhagen.`},
     {
-        id: "10", nombre: "Estonia", poblacion: "1 300 000", PIB: `${idPaisesDefinitivo[12].pib} millones de euros`, capital: "Tallin", anioConstitucion: 1991, etniaMayoritaria: "Bálticos", monedaActual: "Euro", idiomaOficial: "estonio", banderita: `<svg class="banderita" width="100" height="63.6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 990 630">
+        id: "10", nombre: "Estonia", poblacion: "1 300 000", PIB: `${idPaisesDefinitivo[5].pib} millones de euros`, capital: "Tallin", anioConstitucion: 1991, etniaMayoritaria: "Bálticos", monedaActual: "Euro", idiomaOficial: "estonio", banderita: `<svg class="banderita" width="100" height="63.6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 990 630">
     <path d="m0 0h990v630h-990z" fill="#0072ce"/>
     <path d="m0 210h990v420h-990z"/>
     <path d="m0 420h990v210h-990z" fill="#fff"/>
@@ -111,7 +111,7 @@ const paisesDescripcion = (idPaisesDefinitivo) => [
   fontSize: null, fontSize2: null,
   curiosidad: `Impuesto de sociedades prácticamente nulo en algunos casos. Preguntádselo a vuestro gestor.`},
     {
-        id: "11", nombre: "Letonia", poblacion: "1 900 000", PIB: `${idPaisesDefinitivo[20].pib} millones de euros`, capital: "Riga", anioConstitucion: 1991, etniaMayoritaria: "Bálticos", monedaActual: "Euro", idiomaOficial: "letón", banderita: `<svg class="banderita" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="100" height="50">
+        id: "11", nombre: "Letonia", poblacion: "1 900 000", PIB: `${idPaisesDefinitivo[13].pib} millones de euros`, capital: "Riga", anioConstitucion: 1991, etniaMayoritaria: "Bálticos", monedaActual: "Euro", idiomaOficial: "letón", banderita: `<svg class="banderita" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="100" height="50">
     <path fill="#9D2235" d="M0 0h1200v600H0"/>
     <path fill="#FFF" d="M0 240h1200v120H0"/>
   </svg>`,
@@ -119,7 +119,7 @@ const paisesDescripcion = (idPaisesDefinitivo) => [
   fontSize: null, fontSize2: null,
   curiosidad: `En inglés se llama "Latvia" y en letón "Latvija". No me digas por qué, probablemente movidas del latín, pero en español se dice Letonia.`},
     {
-        id: "12", nombre: "Lituania", poblacion: "2 800 000", PIB: `${idPaisesDefinitivo[21].pib} millones de euros`, capital: "Vilna", anioConstitucion: 1991, etniaMayoritaria: "Bálticos", monedaActual: "Euro", idiomaOficial: "lituano", banderita: `<svg class="banderita" xmlns="http://www.w3.org/2000/svg" width="100" height="60">
+        id: "12", nombre: "Lituania", poblacion: "2 800 000", PIB: `${idPaisesDefinitivo[14].pib} millones de euros`, capital: "Vilna", anioConstitucion: 1991, etniaMayoritaria: "Bálticos", monedaActual: "Euro", idiomaOficial: "lituano", banderita: `<svg class="banderita" xmlns="http://www.w3.org/2000/svg" width="100" height="60">
     <path fill="#c1272d" d="M0 0h100v60H0z"/>
     <path fill="#006a44" d="M0 0h100v40H0z"/>
     <path fill="#fdb913" d="M0 0h100v20H0z"/>
@@ -191,7 +191,7 @@ fontSize: "2rem", fontSize2: "1rem",
 curiosidad: `Prácticamente el hermano de Rumanía, Moldavia se clasifica como el país más pobre de toda Europa, industrialmente atrapada en los años 80. Además, en la región 'independiente de facto' de la frontera norte (Transnistria), están todavía socialmente viviendo en la época soviética (aunque en este caso, prácticamente de forma voluntaria)`
  },
     {
-        id: "18", nombre: "Rumanía", poblacion: "19 200 000", PIB: `${idPaisesDefinitivo[29].pib} millones de euros`, capital: "Bucarest", anioConstitucion: 1991, etniaMayoritaria: "Rumanos", monedaActual: "Leu rumano", idiomaOficial: "rumano", banderita: `<svg class="banderita" xmlns="http://www.w3.org/2000/svg" width="85" height="56.7" viewBox="0 0 3 2">
+        id: "18", nombre: "Rumanía", poblacion: "19 200 000", PIB: `${idPaisesDefinitivo[22].pib} millones de euros`, capital: "Bucarest", anioConstitucion: 1991, etniaMayoritaria: "Rumanos", monedaActual: "Leu rumano", idiomaOficial: "rumano", banderita: `<svg class="banderita" xmlns="http://www.w3.org/2000/svg" width="85" height="56.7" viewBox="0 0 3 2">
     <rect width="3" height="2" x="0" y="0" fill="#002B7F"/>
     <rect width="2" height="2" x="1" y="0" fill="#FCD116"/>
     <rect width="1" height="2" x="2" y="0" fill="#CE1126"/>
@@ -200,7 +200,7 @@ curiosidad: `Prácticamente el hermano de Rumanía, Moldavia se clasifica como e
 fontSize: "2rem", fontSize2: null,
 curiosidad: `¿Sabes que curiosamente Rumanía tiene cosas importantes a parte de Transilvania? En efecto, empezando con el hecho de que tb son latinos, pues su idioma es una lenguaje romance, como el español, italiano, etc.`},
     {
-        id: "19", nombre: "Bulgaria", poblacion: "6 900 000", PIB: `${idPaisesDefinitivo[8].pib} millones de euros`, capital: "Sofía", anioConstitucion: 1991, etniaMayoritaria: "Eslavos del Sur", monedaActual: "Leva búlgaro", idiomaOficial: "búlgaro", banderita: `<svg class="banderita" xmlns="http://www.w3.org/2000/svg" width="85" height="51" viewBox="0 0 5 3">
+        id: "19", nombre: "Bulgaria", poblacion: "6 900 000", PIB: `${idPaisesDefinitivo[1].pib} millones de euros`, capital: "Sofía", anioConstitucion: 1991, etniaMayoritaria: "Eslavos del Sur", monedaActual: "Leva búlgaro", idiomaOficial: "búlgaro", banderita: `<svg class="banderita" xmlns="http://www.w3.org/2000/svg" width="85" height="51" viewBox="0 0 5 3">
     <rect width="5" height="3" fill="#fff"/>
     <rect width="5" height="2" y="1" fill="#00966E"/>
     <rect width="5" height="1" y="2" fill="#D62612"/>
@@ -210,7 +210,7 @@ fontSize: "2rem", fontSize2: null,
 curiosidad: `Es, de momento, el país más pobre de la EU, aunque curiosamente tiene muchas relaciones sociales (que no políticas) con Turquía, hasta el punto de que hay un partido político específico por la defensa de los derechos de la etnia turca en el país, consiguiendo gobernar en varias ocasiones mediante coaliciones.`},
 
     {
-        id: "20", nombre: "Turquía", poblacion: "82 000 000", PIB: `${idPaisesDefinitivo[44].pib} millones de euros`, capital: "Ankara", anioConstitucion: 1983, etniaMayoritaria: "Turcos", monedaActual: "Lira turca", idiomaOficial: "turco", banderita: `<svg class="banderita" xmlns="http://www.w3.org/2000/svg" width="85" height="56.7" viewBox="0 -30000 90000 60000">
+        id: "20", nombre: "Turquía", poblacion: "82 000 000", PIB: `${idPaisesDefinitivo[37].pib} millones de euros`, capital: "Ankara", anioConstitucion: 1983, etniaMayoritaria: "Turcos", monedaActual: "Lira turca", idiomaOficial: "turco", banderita: `<svg class="banderita" xmlns="http://www.w3.org/2000/svg" width="85" height="56.7" viewBox="0 -30000 90000 60000">
 	<path fill="#e30a17" d="m0-30000h90000v60000H0z"/>
 	<path fill="#fff" d="m41750 0 13568-4408-8386 11541V-7133l8386 11541zm925 8021a15000 15000 0 1 1 0-16042 12000 12000 0 1 0 0 16042z"/>
 </svg>
@@ -218,7 +218,7 @@ curiosidad: `Es, de momento, el país más pobre de la EU, aunque curiosamente t
 fontSize: null, fontSize2: "1rem",
 curiosidad: `El heredero del Imperio Otomano y padre del Kebab, vive una de las inflaciones más altas del mundo mientras mantienen un ejército inmenso (el 2º de la OTAN), la principal fabricación de drones bélicos, una cierta tendencia a meterse en guerras defendiendo a países de pueblos túrquicos (como Azerbaiyán), una especie de dictadura y la negación del genocidio armenio.`},
     {
-        id: "21", nombre: "Grecia", poblacion: "10 400 000", PIB: `${idPaisesDefinitivo[14].pib} millones de euros`, capital: "Atenas", anioConstitucion: 1975, etniaMayoritaria: "Mediterráneos", monedaActual: "Euro", idiomaOficial: "griego", banderita: `<svg class="banderita" xmlns="http://www.w3.org/2000/svg" width="85" height="56.7" viewBox="0 0 27 18">
+        id: "21", nombre: "Grecia", poblacion: "10 400 000", PIB: `${idPaisesDefinitivo[7].pib} millones de euros`, capital: "Atenas", anioConstitucion: 1975, etniaMayoritaria: "Mediterráneos", monedaActual: "Euro", idiomaOficial: "griego", banderita: `<svg class="banderita" xmlns="http://www.w3.org/2000/svg" width="85" height="56.7" viewBox="0 0 27 18">
     <rect fill="#0D5EAF" width="27" height="18"/>
     <path fill="none" stroke-width="2" stroke="#FFF" d="M5,0V11 M0,5H10 M10,3H27 M10,7H27 M0,11H27 M0,15H27"/>
 </svg>
@@ -228,7 +228,7 @@ curiosidad: `De antigua potencia humanística, científica, cultural e históric
         id: "22",
         nombre: "Chipre",
         poblacion: "1.2 millones",
-        PIB: `${idPaisesDefinitivo[19].pib} millones de euros`,
+        PIB: `${idPaisesDefinitivo[12].pib} millones de euros`,
         capital: "Nicosia",
         anioConstitucion: 1960,
         etniaMayoritaria: "Meditarráneos",
@@ -241,7 +241,7 @@ curiosidad: `De antigua potencia humanística, científica, cultural e históric
 
     },
     {
-        id: "23", nombre: "Macedonia del Norte", poblacion: "2 100 000", PIB: `${idPaisesDefinitivo[41].pib} millones de euros`, capital: "Skopie", anioConstitucion: 1993, etniaMayoritaria: "Eslavos del Sur", monedaActual: "Dinar macedonio", idiomaOficial: "macedonio", banderita: `<svg xmlns="http://www.w3.org/2000/svg" width="85" height="42.5" viewBox="-140 -70 280 140" fill="#f8e92e" class="banderita" style="margin-right:-2vh">
+        id: "23", nombre: "Macedonia del Norte", poblacion: "2 100 000", PIB: `${idPaisesDefinitivo[34].pib} millones de euros`, capital: "Skopie", anioConstitucion: 1993, etniaMayoritaria: "Eslavos del Sur", monedaActual: "Dinar macedonio", idiomaOficial: "macedonio", banderita: `<svg xmlns="http://www.w3.org/2000/svg" width="85" height="42.5" viewBox="-140 -70 280 140" fill="#f8e92e" class="banderita" style="margin-right:-2vh">
     <path fill="#d82126" d="m-140-70h280V70h-280z"/>
     <path d="m-140 14v-28l280 28v-28zm126-84h28L0-15zM14 70h-28L0 15zM-140-70h42L12.86 7.72zm0 140h42L12.86-7.72zM140-70H98L-12.86 7.72zm0 140H98L-12.86-7.72z"/>
     <circle r="22.5" stroke="#d82126" stroke-width="5"/>
@@ -250,15 +250,15 @@ curiosidad: `De antigua potencia humanística, científica, cultural e históric
 fontSize: "2rem", fontSize2: "1rem",
 curiosidad: `A ver, no tiene nada que ver con el postre de frutas varias. Aunque sí con la tierra de origen de Carlomagno. También es gracioso que haya tenido que cambiar constitucionalmente su nombre oficial (añadiendo 'del Norte') para que Grecia permita su entrada en la UE (así se diferencia el nombre del país con una provincia griega), aunque Bulgaria le sigue vetando. Finalmente, es gracioso que su moneda, el dinar, tenga el mismo nombre que muchos países árabes, y tb igual que Serbia.`},
 
-    { id: "24", nombre: "Albania", poblacion: "2 800 000", PIB: `${idPaisesDefinitivo[42].pib} millones de euros`, capital: "Tirana", anioConstitucion: 1992, etniaMayoritaria: "Mediterráneos", monedaActual: "Lek albanés", idiomaOficial: "albanés", banderita: `<img src="/imgs/albania.png" class="banderita" alt="bandera Albania" width="85" height="60.7">`, height: "50vh",
+    { id: "24", nombre: "Albania", poblacion: "2 800 000", PIB: `${idPaisesDefinitivo[35].pib} millones de euros`, capital: "Tirana", anioConstitucion: 1992, etniaMayoritaria: "Mediterráneos", monedaActual: "Lek albanés", idiomaOficial: "albanés", banderita: `<img src="/imgs/albania.png" class="banderita" alt="bandera Albania" width="85" height="60.7">`, height: "50vh",
     fontSize: null, fontSize2: null,
     curiosidad: `País muy hermético y que se lleva bastante mal con la mayoría de sus vecinos, aunque bien que comercian con ellos con drogas ilegales. No por nada suenan las mafias albanesas y kosovares y es de los mayores productores de mariguana y demás de Europa.` },
 
-    { id: "25", nombre: "Montenegro", poblacion: "600 000", PIB: `${idPaisesDefinitivo[40].pib} millones de euros`, capital: "Podgorica", anioConstitucion: 2006, etniaMayoritaria: "Eslavos del Sur", monedaActual: "Euro", idiomaOficial: "montenegrino", banderita: `<img src="/imgs/montenegro.png" class="banderita" alt="bandera Montenegro" width="100" height="50">`, height: "35vh",
+    { id: "25", nombre: "Montenegro", poblacion: "600 000", PIB: `${idPaisesDefinitivo[33].pib} millones de euros`, capital: "Podgorica", anioConstitucion: 2006, etniaMayoritaria: "Eslavos del Sur", monedaActual: "Euro", idiomaOficial: "montenegrino", banderita: `<img src="/imgs/montenegro.png" class="banderita" alt="bandera Montenegro" width="100" height="50">`, height: "35vh",
     fontSize: "1.8rem", fontSize2: null,
     curiosidad: `País pequeño, montañoso y enormemente endeudado con China por inversiones multimillonarias de autopistas que no llegan a ninguna parte :)` },
     {
-        id: "26", nombre: "Serbia", poblacion: "7 000 000", PIB: `${idPaisesDefinitivo[43].pib} millones de euros`, capital: "Belgrado", anioConstitucion: 2006, etniaMayoritaria: "Eslavos del Sur", monedaActual: "Dinar serbio", idiomaOficial: "serbio", banderita: `<svg height="75" width="75" version="1.1" class="banderita" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+        id: "26", nombre: "Serbia", poblacion: "7 000 000", PIB: `${idPaisesDefinitivo[36].pib} millones de euros`, capital: "Belgrado", anioConstitucion: 2006, etniaMayoritaria: "Eslavos del Sur", monedaActual: "Dinar serbio", idiomaOficial: "serbio", banderita: `<svg height="75" width="75" version="1.1" class="banderita" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
     viewBox="0 0 512 512" xml:space="preserve">
 <circle style="fill:#0052B4;" cx="256" cy="256" r="256"/>
 <g>
@@ -283,7 +283,7 @@ curiosidad: `A ver, no tiene nada que ver con el postre de frutas varias. Aunque
 fontSize: null, fontSize2: "1rem",
 curiosidad: `Sí, en la descripción no está la bandera del país de Djokovic, si no una que les representa y a la vez no. Y es que la región del sur, la famosa Kosovo, está considerada por algunos países como país independiente y por otros como región serbia con cierta autonomía (de hecho, esta es la posición de España). También es curioso que en la Guerra de Yugoslavia fuese su capital, Belgrado, la única ciudad importante bombardeada por la OTAN`},
     {
-        id: "27", nombre: "Bosnia y Herzegovina", poblacion: "3 300 000", PIB: `${idPaisesDefinitivo[39].pib} millones de euros`, capital: "Sarajevo", anioConstitucion: 1995, etniaMayoritaria: "Bosnios", monedaActual: "Marco bosnio", idiomaOficial: "bosnio, croata y serbio", banderita: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="42.5" style="margin-right:-3vh" viewBox="0 0 16 8" class="banderita">
+        id: "27", nombre: "Bosnia y Herzegovina", poblacion: "3 300 000", PIB: `${idPaisesDefinitivo[32].pib} millones de euros`, capital: "Sarajevo", anioConstitucion: 1995, etniaMayoritaria: "Bosnios", monedaActual: "Marco bosnio", idiomaOficial: "bosnio, croata y serbio", banderita: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="42.5" style="margin-right:-3vh" viewBox="0 0 16 8" class="banderita">
     <rect width="16" height="8" fill="#002395"/>
     <path d="m4.24,0h8v8z" fill="#fecb00"/>
     <g id="g">
@@ -298,11 +298,11 @@ curiosidad: `Sí, en la descripción no está la bandera del país de Djokovic, 
 fontSize: "1.5rem", fontSize2: "1rem",
 curiosidad: `Uno de los países más complejos de Europa: están divididos en 3 provincias (dos dan nombre al país, la tercera es la de mayoría serbia), están divididos tb en tres religiones (católicos, ortodoxos y musulmanes) y tienen 3 presidentes del gobierno que se rotan. Quieren entrar en la EU, pero entre los desequilibrios económicos y las continuas confrontaciones entre las provincias, e incluso su independencia, les resulta prácticamente imposible.`},
 
-    { id: "28", nombre: "Croacia", poblacion: "4 000 000", PIB: `${idPaisesDefinitivo[17].pib} millones de euros`, capital: "Zagreb", anioConstitucion: 1998, etniaMayoritaria: "Eslavos del Sur", monedaActual: "Euro", idiomaOficial: "croata", banderita: `<img src="/imgs/croacia.png" class="banderita" alt="bandera Croacia" width="85" height="42.5">`, height: "30vh",
+    { id: "28", nombre: "Croacia", poblacion: "4 000 000", PIB: `${idPaisesDefinitivo[10].pib} millones de euros`, capital: "Zagreb", anioConstitucion: 1998, etniaMayoritaria: "Eslavos del Sur", monedaActual: "Euro", idiomaOficial: "croata", banderita: `<img src="/imgs/croacia.png" class="banderita" alt="bandera Croacia" width="85" height="42.5">`, height: "30vh",
     fontSize: null, fontSize2: null,
     curiosidad: `El país de Luka Modrić y de 2Cellos es el último país de la UE en aceptar el Euro como moneda de curso legal oficial.` },
     {
-        id: "29", nombre: "Eslovenia", poblacion: "2 100 000", PIB: `${idPaisesDefinitivo[30].pib} millones de euros`, capital: "Liubliana", anioConstitucion: 1991, etniaMayoritaria: "Eslavos del Sur", monedaActual: "Euro", idiomaOficial: "esloveno", banderita: `<svg width="85" height="42.5" class="banderita" viewBox="0 0 240 120" fill="#00f" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+        id: "29", nombre: "Eslovenia", poblacion: "2 100 000", PIB: `${idPaisesDefinitivo[23].pib} millones de euros`, capital: "Liubliana", anioConstitucion: 1991, etniaMayoritaria: "Eslavos del Sur", monedaActual: "Euro", idiomaOficial: "esloveno", banderita: `<svg width="85" height="42.5" class="banderita" viewBox="0 0 240 120" fill="#00f" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
     <path d="M0 0h240v120H0Z" fill="red"/>
     <path d="M0 0h240v80H0Z"/>
     <path d="M0 0h240v40H0Z" fill="#fff"/>
@@ -322,13 +322,13 @@ curiosidad: `Uno de los países más complejos de Europa: están divididos en 3 
         curiosidad: `No confundirlo con Eslovaquia. Básicamente este el país de Melania Trump, la mujer de Donald Trump. También es curioso que en la cruenta Guerra de Yugoslavia fue el primer país en independizarse y sin apenas llegar a las armas, pues el ejército yugoslavo no movío grandes fuerzas armadas por la poca diferencia étnica en el país.`
     },
     {
-        id: "30", nombre: "Hungría", poblacion: "9 700 000", PIB: `${idPaisesDefinitivo[23].pib} millones de euros`, capital: "Budapest", anioConstitucion: 2011, etniaMayoritaria: "Magyar", monedaActual: "Florín húngaro", idiomaOficial: "húngaro", banderita: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" class="banderita" width="100" height="50"><path d="M0 0h1200v600H0" fill="#477050"/><path d="M0 0h1200v400H0" fill="#fff"/><path d="M0 0h1200v200H0" fill="#ce2939"/></svg>
+        id: "30", nombre: "Hungría", poblacion: "9 700 000", PIB: `${idPaisesDefinitivo[16].pib} millones de euros`, capital: "Budapest", anioConstitucion: 2011, etniaMayoritaria: "Magyar", monedaActual: "Florín húngaro", idiomaOficial: "húngaro", banderita: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" class="banderita" width="100" height="50"><path d="M0 0h1200v600H0" fill="#477050"/><path d="M0 0h1200v400H0" fill="#fff"/><path d="M0 0h1200v200H0" fill="#ce2939"/></svg>
 
     `, height: "65vh",
     fontSize: "2.5rem", fontSize2: "1rem",
     curiosidad: `"El país de Soros y del Goulash se ha convertido durante la última década en el bastión de la extremaderecha y en un quebradero de cabeza para la UE, pues suele vetar muchas reformas, como la ayuda a Ucrania. Mientras tanto, sus continuas reformas judiciales han hecho dudar sobre la separación de poderes en ese país. Al menos sus relativos bajos impuestos han incentivado a que se asienten muchas empresas y no le afecte tanto las crisis económicas. `},
     {
-        id: "31", nombre: "Austria", poblacion: "8 900 000", PIB: `${idPaisesDefinitivo[26].pib} millones de euros`, capital: "Viena", anioConstitucion: 1955, etniaMayoritaria: "Germanos", monedaActual: "Euro", idiomaOficial: "alemán", banderita: `<?xml version="1.0" encoding="UTF-8"?>
+        id: "31", nombre: "Austria", poblacion: "8 900 000", PIB: `${idPaisesDefinitivo[19].pib} millones de euros`, capital: "Viena", anioConstitucion: 1955, etniaMayoritaria: "Germanos", monedaActual: "Euro", idiomaOficial: "alemán", banderita: `<?xml version="1.0" encoding="UTF-8"?>
     <svg xmlns="http://www.w3.org/2000/svg" class="banderita" width="85" height="56.7" viewBox="0 0 900 600">
     <rect fill="#c8102e" width="900" height="600"/>
     <rect fill="#fff" y="200" width="900" height="200"/>
@@ -338,7 +338,7 @@ curiosidad: `Uno de los países más complejos de Europa: están divididos en 3 
         curiosidad: `Es gracioso que prácticamente toda la UE esté en la OTAN y justo Austria pase del tema. Además, aparte de Mozart y de la historia de Sonrisas y Lágrimas, Austria contó con uno de los centro intelectuales más importantes del mundo... antes de la Segunda Guerra Mundial. ¿Te suena la Escuela de Viena de Economía, o la Segunda Escuela de Viena de Música, o el Círculo de Viena de Filosofía?`
     },
     {
-        id: "32", nombre: "Slovakia", poblacion: "5 400 000", PIB: `${idPaisesDefinitivo[31].pib} millones de euros`, capital: "Bratislava", anioConstitucion: 1992, etniaMayoritaria: "Eslavos centrales", monedaActual: "Euro", idiomaOficial: "eslovaco", banderita: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="56.7" viewBox="0 0 10800 7200" fill="#ee1c25" class="banderita">
+        id: "32", nombre: "Slovakia", poblacion: "5 400 000", PIB: `${idPaisesDefinitivo[24].pib} millones de euros`, capital: "Bratislava", anioConstitucion: 1992, etniaMayoritaria: "Eslavos centrales", monedaActual: "Euro", idiomaOficial: "eslovaco", banderita: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="56.7" viewBox="0 0 10800 7200" fill="#ee1c25" class="banderita">
 	<defs>
 		<clipPath id="c">
 			<path id="s" d="m4678 1746c0 0 56 561 56 1683-8 1146-865 1726-1494 2031-629-305-1486-885-1494-2031 0-1122 56-1683 56-1683z"/>
@@ -359,7 +359,7 @@ curiosidad: `Uno de los países más complejos de Europa: están divididos en 3 
         curiosidad: `Hasta te pongo el nombre en inglés para que no lo confundas con Eslovenia. Y sí, no es lo mismo que Checoslovaquia, pues ese antiguo país fue dividido entre República Checa y Slovakia después de la Guerra Fría. Es cierto que entre ellos hoy en día hay bastantes relaciones comerciales y sociales, incluso hay bastante población que está a favor de la reunificación. Solo el tiempo lo dirá.`
     },
     {
-        id: "33", nombre: "República Checa o Chequia", poblacion: "10 700 000", PIB: `${idPaisesDefinitivo[9].pib} millones de euros`, capital: "Praga", anioConstitucion: 1992, etniaMayoritaria: "Eslavos centrales", monedaActual: "Corona checa", idiomaOficial: "checo", banderita: `<?xml version="1.0" encoding="UTF-8"?>
+        id: "33", nombre: "República Checa o Chequia", poblacion: "10 700 000", PIB: `${idPaisesDefinitivo[2].pib} millones de euros`, capital: "Praga", anioConstitucion: 1992, etniaMayoritaria: "Eslavos centrales", monedaActual: "Corona checa", idiomaOficial: "checo", banderita: `<?xml version="1.0" encoding="UTF-8"?>
     <svg version="1.0" xmlns="http://www.w3.org/2000/svg" class="banderita" width="65" height="43.3" viewBox="0 0 900 600" style="margin-top:4vh">
         <rect width="900" height="600" fill="#d7141a"/>
         <rect width="900" height="300" fill="#fff"/>
@@ -370,7 +370,7 @@ curiosidad: `Uno de los países más complejos de Europa: están divididos en 3 
         curiosidad: `En efecto, la República Checa también se llama oficialmente Chequia. Y además tiene más cosas a resaltar que la ciudad de Praga. Por ejemplo, es el país más ateo de Europa, fue el país que más rápido y mejor cambío al capitalismo en los años 90 y es de lo países más críticos con Rusia en este siglo, llegando a vender armas a Ucrania ya desde 2014.`
     },
     {
-        id: "34", nombre: "Polonia", poblacion: "38 300 000", PIB: `${idPaisesDefinitivo[27].pib} millones de euros`, capital: "Varsovia", anioConstitucion: 1997, etniaMayoritaria: "Eslavos centrales", monedaActual: "Złoty", idiomaOficial: "polaco", banderita: `<?xml version="1.0"?>
+        id: "34", nombre: "Polonia", poblacion: "38 300 000", PIB: `${idPaisesDefinitivo[20].pib} millones de euros`, capital: "Varsovia", anioConstitucion: 1997, etniaMayoritaria: "Eslavos centrales", monedaActual: "Złoty", idiomaOficial: "polaco", banderita: `<?xml version="1.0"?>
     <svg xmlns="http://www.w3.org/2000/svg" class="banderita" width="85" height="53.1" viewBox="0 0 8 5">
     <rect width="8" height="5" fill="#dc143c"/>
     <rect width="8" height="2.5" fill="#fff"/>
@@ -380,7 +380,7 @@ curiosidad: `Uno de los países más complejos de Europa: están divididos en 3 
         curiosidad: `Nada que ver con los catalanes. Idioma muy distinto del español. Mucho alcohol. Velocidad máxima en autovía de 140 km/h (la más alta de Europa junto con Bulgaria, por detrás de la 'Autobahn' alemana). Curiosamente no paran de decir 'Kurva'.`
     },
     {
-        id: "35", nombre: "Alemania", poblacion: "83 200 000", PIB: `${idPaisesDefinitivo[11].pib} millones de euros`, capital: "Berlín", anioConstitucion: 1990, etniaMayoritaria: "Germanos", monedaActual: "Euro", idiomaOficial: "alemán", banderita: `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        id: "35", nombre: "Alemania", poblacion: "83 200 000", PIB: `${idPaisesDefinitivo[4].pib} millones de euros`, capital: "Berlín", anioConstitucion: 1990, etniaMayoritaria: "Germanos", monedaActual: "Euro", idiomaOficial: "alemán", banderita: `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
     <svg xmlns="http://www.w3.org/2000/svg" class="banderita" width="85" height="51" viewBox="0 0 5 3">
         <desc>Flag of Germany</desc>
         <rect id="black_stripe" width="5" height="3" y="0" x="0" fill="#000"/>
@@ -392,7 +392,7 @@ curiosidad: `Uno de los países más complejos de Europa: están divididos en 3 
         curiosidad: `Sí, además de las salchichas, los cochazos, el Octoberfest y el grupo de heavy metal Ramstein, hay que destacar que en este año 2024 se ha convertido en la tercera economía mundial al desbancar a Japón, aunque no está pasando por su mejor momento. Se ve que su mala suerte eterna en Eurovisión le ha contagiado a otras situaciones, como decidir acabar con las centrales nucleares y quemar carbón en su lugar (+ contaminante).`
     },
     {
-        id: "36", nombre: "Paises Bajos", poblacion: "17 400 000", PIB: `${idPaisesDefinitivo[25].pib} millones de euros`, capital: "Ámsterdam", anioConstitucion: 1815, etniaMayoritaria: "Germanos", monedaActual: "Euro", idiomaOficial: "neerlandés", banderita: `<svg xmlns="http://www.w3.org/2000/svg" class="banderita" width="85" height="56.7" viewBox="0 0 9 6">
+        id: "36", nombre: "Paises Bajos", poblacion: "17 400 000", PIB: `${idPaisesDefinitivo[18].pib} millones de euros`, capital: "Ámsterdam", anioConstitucion: 1815, etniaMayoritaria: "Germanos", monedaActual: "Euro", idiomaOficial: "neerlandés", banderita: `<svg xmlns="http://www.w3.org/2000/svg" class="banderita" width="85" height="56.7" viewBox="0 0 9 6">
     <rect fill="#21468B"	width="9" height="6"/>
     <rect fill="#FFF" width="9" height="4"/>
     <rect fill="#AE1C28"	width="9" height="2"/>
@@ -402,18 +402,18 @@ curiosidad: `Uno de los países más complejos de Europa: están divididos en 3 
         curiosidad: `A ver, Holanda es parte de Países Bajos, pero Países Bajos no es Holanda. Holanda es solo una provincia más. ¿Te imaginas que a España lo llamasen Murcia? Yo tampoco. </br> Pero no solo hay mucha legalidad con drogas y hierbas en este país, sino que también son de los principales productores de verduras en la UE, ¡¡y no tiene apenas tierras para cultivar!! Y es que con investigación e inversión, han desarrollado granjas inteligentes y carreras específicas para ello. Resumen: granjeros ingenieros.`
     },
     {
-        id: "37", nombre: "Bélgica", poblacion: "11 600 000", PIB: `${idPaisesDefinitivo[7].pib} millones de euros`, capital: "Bruselas", anioConstitucion: 1831, etniaMayoritaria: "Germanos (flamencos) y mucho francés", monedaActual: "Euro", idiomaOficial: "neerlandés, francés y alemán", banderita: `<svg xmlns="http://www.w3.org/2000/svg"  class="banderita" style="margin-right:10vh" width="85" height="73.7" viewBox="0 0 900 780"><path fill="#ef3340" d="M0 0h900v780H0z"/><path fill="#fdda25" d="M0 0h600v780H0z"/><path d="M0 0h300v780H0z"/></svg>
+        id: "37", nombre: "Bélgica", poblacion: "11 600 000", PIB: `${idPaisesDefinitivo[0].pib} millones de euros`, capital: "Bruselas", anioConstitucion: 1831, etniaMayoritaria: "Germanos (flamencos) y mucho francés", monedaActual: "Euro", idiomaOficial: "neerlandés, francés y alemán", banderita: `<svg xmlns="http://www.w3.org/2000/svg"  class="banderita" style="margin-right:10vh" width="85" height="73.7" viewBox="0 0 900 780"><path fill="#ef3340" d="M0 0h900v780H0z"/><path fill="#fdda25" d="M0 0h600v780H0z"/><path d="M0 0h300v780H0z"/></svg>
     `, height: "60vh",
     fontSize: null, fontSize2: null,
     curiosidad: `De país capital de la EU a estar muy dividido entre el norte (Flandes) y el sur (básicamente franceses), hasta el punto de querer la independencia del norte. Normal, quien quiere estar en un territorio donde la gastronomía más característica sean las patatas fritas, pudiendo elegir la mayor variedad de cervezas del mundo.`},
 
-    { id: "38", nombre: "Luxemburgo", poblacion: "600 000", PIB: `${idPaisesDefinitivo[22].pib} millones de euros`, capital: "Luxemburgo", anioConstitucion: 1868, etniaMayoritaria: "Mucho francés", monedaActual: "Euro", idiomaOficial: "luxemburgués (francés)", banderita:`<svg xmlns="http://www.w3.org/2000/svg" width="85"
+    { id: "38", nombre: "Luxemburgo", poblacion: "600 000", PIB: `${idPaisesDefinitivo[15].pib} millones de euros`, capital: "Luxemburgo", anioConstitucion: 1868, etniaMayoritaria: "Mucho francés", monedaActual: "Euro", idiomaOficial: "luxemburgués (francés)", banderita:`<svg xmlns="http://www.w3.org/2000/svg" width="85"
     height="51" class="banderita" viewBox="0,0 5,3"><path fill="#ef3340" d="M0,0H5V1H0Z"/><path fill="#fff" d="M0,1H5V2H0Z"/><path fill="#00a3e0" d="M0,2H5V3H0Z"/></svg>`,
      height: "40vh",
     fontSize: "1.8rem", fontSize2: null,
     curiosidad: `Resumen: un puñado de franceses todavía más elitistas. Hasta el punto que tienen un rey para un país enano. ¿Te imaginas que un territorio algo más pequeño que Extremadura tuviese una realeza exclusiva? Pues eso.` },
     {
-        id: "39", nombre: "Francia", poblacion: "67 100 000", PIB: `${idPaisesDefinitivo[16].pib} millones de euros`, capital: "París", anioConstitucion: 1958, etniaMayoritaria: "Mucho francés", monedaActual: "Euro", idiomaOficial: "francés", banderita: `<?xml version="1.0" standalone="no"?>
+        id: "39", nombre: "Francia", poblacion: "67 100 000", PIB: `${idPaisesDefinitivo[9].pib} millones de euros`, capital: "París", anioConstitucion: 1958, etniaMayoritaria: "Mucho francés", monedaActual: "Euro", idiomaOficial: "francés", banderita: `<?xml version="1.0" standalone="no"?>
     <svg
         width="85"
         height="56.7"
@@ -437,7 +437,7 @@ curiosidad: `Uno de los países más complejos de Europa: están divididos en 3 
     fontSize: null, fontSize2: null,
     curiosidad: ``},
     {
-        id: "41", nombre: "Suiza", poblacion: "8 600 000", PIB: `${idPaisesDefinitivo[37].pib} millones de euros`, capital: "Berna", anioConstitucion: 1999, etniaMayoritaria: "De todo", monedaActual: "franco suizo", idiomaOficial: "alemán, francés, italiano y romanche", banderita: `<?xml version="1.0"?>
+        id: "41", nombre: "Suiza", poblacion: "8 600 000", PIB: `${idPaisesDefinitivo[30].pib} millones de euros`, capital: "Berna", anioConstitucion: 1999, etniaMayoritaria: "De todo", monedaActual: "franco suizo", idiomaOficial: "alemán, francés, italiano y romanche", banderita: `<?xml version="1.0"?>
     <svg width="85" height="85" class="banderita"  viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
     <path d="m0 0h32v32h-32z" fill="#f00"/>
     <path d="m13 6h6v7h7v6h-7v7h-6v-7h-7v-6h7z" fill="#fff"/>
@@ -447,7 +447,7 @@ curiosidad: `Uno de los países más complejos de Europa: están divididos en 3 
         curiosidad: `A ver, Suiza no es, según la UE, un paraíso fiscal. Y hay que decir que hay cosas muy guapas que tiene, además de muchísima pasta: Cada año cambian de presidente, para las principales reformas sociales hacen referéndums en la población, tienen impuestos bajos (pero no nulos) y hay hasta 4 idiomas oficiales (aunque su dialecto del alemán no lo entiende nadie).`
     },
     {
-        id: "42", nombre: "Italia", poblacion: "60 400 000", PIB: `${idPaisesDefinitivo[18].pib} millones de euros`, capital: "Roma", anioConstitucion: 1948, etniaMayoritaria: "Mediterráneos", monedaActual: "Euro", idiomaOficial: "italiano", banderita: `<?xml version="1.0" encoding="UTF-8"?>
+        id: "42", nombre: "Italia", poblacion: "60 400 000", PIB: `${idPaisesDefinitivo[11].pib} millones de euros`, capital: "Roma", anioConstitucion: 1948, etniaMayoritaria: "Mediterráneos", monedaActual: "Euro", idiomaOficial: "italiano", banderita: `<?xml version="1.0" encoding="UTF-8"?>
     <svg xmlns="http://www.w3.org/2000/svg" class="banderita" width="85" height="56.7" viewBox="0 0 3 2">
     <rect width="3" height="2" fill="#009246"/>
     <rect width="2" height="2" x="1" fill="#fff"/>
@@ -475,11 +475,11 @@ curiosidad: `Uno de los países más complejos de Europa: están divididos en 3 
         curiosidad: `Sicilia, Palermo, Siracusa, Arquímedes, mafias, etc etc. ¿Pero has visto qué guapa está su bandera?` 
     }
     ,
-    { id: "45", nombre: "España", poblacion: "47 300 000", PIB: `${idPaisesDefinitivo[15].pib} millones de euros`, capital: "Madrid", anioConstitucion: 1978, etniaMayoritaria: "Mediterráneos", monedaActual: "Euro", idiomaOficial: "español", banderita: `<img src="/imgs/espanita.png" class="banderita" alt="bandera Espanita" width="85" height="56.7">`, height: "40vh",
+    { id: "45", nombre: "España", poblacion: "47 300 000", PIB: `${idPaisesDefinitivo[8].pib} millones de euros`, capital: "Madrid", anioConstitucion: 1978, etniaMayoritaria: "Mediterráneos", monedaActual: "Euro", idiomaOficial: "español", banderita: `<img src="/imgs/espanita.png" class="banderita" alt="bandera Espanita" width="85" height="56.7">`, height: "40vh",
     fontSize: null, fontSize2: null,
     curiosidad: `¡¡Viva el vino, el aceite y el himno sin letra!! </br></br> Viva la diversidad, la alta deuda y un sistema de pensiones que ni él mismo sabe cómo se va a sostener.` },
 
-    { id: "52", nombre: "Portugal", poblacion: "10 300 000", PIB: `${idPaisesDefinitivo[28].pib} millones de euros`, capital: "Lisboa", anioConstitucion: 1976, etniaMayoritaria: "Mediterráneos", monedaActual: "Euro", idiomaOficial: "portugués", banderita: `<img src="/imgs/portugal.png" class="banderita" alt="bandera Portugal" width="85" height="56.7">`, height: "55vh",
+    { id: "52", nombre: "Portugal", poblacion: "10 300 000", PIB: `${idPaisesDefinitivo[21].pib} millones de euros`, capital: "Lisboa", anioConstitucion: 1976, etniaMayoritaria: "Mediterráneos", monedaActual: "Euro", idiomaOficial: "portugués", banderita: `<img src="/imgs/portugal.png" class="banderita" alt="bandera Portugal" width="85" height="56.7">`, height: "55vh",
     fontSize: "2rem", fontSize2: "1rem",
     curiosidad: `El vecino menor de España, aunque le dio mil vueltas en las estrategias coloniales, pues hasta los año 70 seguía teniendo puertos y un comercio muy intensivo entre ellos. Por ejemplo, mucho hablar de Hong Kong que pasó de Reino Unido a China, ¿pero conoces el caso de Macao? Es exactamente igual, pero en vez de haber empresas y represión china, hay muchos casinos.` },
     {
