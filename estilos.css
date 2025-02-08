@@ -532,8 +532,6 @@ g {
     text-decoration: underline;
     line-height: 1.5;
     margin: 1vh 0;
-
-
 }
 
 .curiosidad2 {
@@ -542,7 +540,6 @@ g {
     font-style: italic;
     font-family: 'Times New Roman', Times, serif, sans-serif;
     line-height: 1.5;
-
 }
 
 .curiosidades2 {
@@ -557,8 +554,6 @@ g {
     z-index: 30;
     border-radius: 10px;
     border: 3px solid blue;
-    ;
-
 }
 
 @media screen and (max-width: 500px) {
