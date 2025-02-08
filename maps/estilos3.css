@@ -35,9 +35,9 @@ section {
 }
 
 .pais2:hover {
-    stroke-opacity: 0.7 !important;
-    stroke-width: 2px !important; 
-    stroke: midnightblue;
+    stroke-opacity: 0.8 !important;
+    stroke-width: 5px !important; 
+    stroke: palegoldenrod !important;
 
 
 }
