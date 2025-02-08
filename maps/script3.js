@@ -1,4 +1,4 @@
-//import descripciones from './paisesDescripcion.js';
+import descripciones from './paisesDescripcion2.js';
 
 //const espanita = document.querySelector('[name="espanita"]');
 const espanita = document.querySelector('.hispania');
@@ -41,7 +41,7 @@ fetch(apiLink).then((response) => response.json().then(cada => {
             z++;
         }
     };
-    //const paisesDescripcion = descripciones(listaPaisesApi); //Se pasa la listaPaisesApi para obtener todos los datos restantes de los paises
+    const paisesDescripcion = descripciones(listaPaisesApi); //Se pasa la listaPaisesApi para obtener todos los datos restantes de los paises
 
 
     // 1. funciones:
@@ -50,14 +50,11 @@ fetch(apiLink).then((response) => response.json().then(cada => {
         cada.style.fill = "dodgerblue";
     });
 
-}));
-
-/*
     // 2. Correspondencia con el mouse
     // 2.1. Cambiar color y aparecer Curiosidad cuando mouseover
     paisesMapa.map((cada) => cada.addEventListener('mouseover', function (event) {
         cada.style.fill = "blue";
-        paisObjetivo = cada.firstElementChild.id; //se recoge el id del pais que está debajo del ratón
+        paisObjetivo = cada.id; //se recoge el id del pais que está debajo del ratón
         document.addEventListener("mousemove", function (event) {
             let x = event.clientX;
             let y = event.clientY;
@@ -84,7 +81,7 @@ fetch(apiLink).then((response) => response.json().then(cada => {
             
 
             paisesDescripcion.map(pais => {
-                if (String(cada.firstElementChild.id) === pais.id){
+                if (String(cada.id) === pais.id){
                     titulo.innerHTML = pais.nombre;
                     curiosidad.innerHTML = pais.curiosidad;
                     boxCuriosidades.style.height = pais.height;
@@ -124,4 +121,4 @@ fetch(apiLink).then((response) => response.json().then(cada => {
             divFlotante.style.opacity = '1';
         }, 200);
     }))
-}));*/
+}));

@@ -402,7 +402,7 @@ curiosidad: `Uno de los países más complejos de Europa: están divididos en 3 
         curiosidad: `A ver, Holanda es parte de Países Bajos, pero Países Bajos no es Holanda. Holanda es solo una provincia más. ¿Te imaginas que a España lo llamasen Murcia? Yo tampoco. </br> Pero no solo hay mucha legalidad con drogas y hierbas en este país, sino que también son de los principales productores de verduras en la UE, ¡¡y no tiene apenas tierras para cultivar!! Y es que con investigación e inversión, han desarrollado granjas inteligentes y carreras específicas para ello. Resumen: granjeros ingenieros.`
     },
     {
-        id: "37", nombre: "Bélgica", poblacion: "11 600 000", PIB: `${idPaisesDefinitivo[0].pib} millones de euros`, capital: "Bruselas", anioConstitucion: 1831, etniaMayoritaria: "Germanos (flamencos) y mucho francés", monedaActual: "Euro", idiomaOficial: "neerlandés, francés y alemán", banderita: `<svg xmlns="http://www.w3.org/2000/svg"  class="banderita" style="margin-right:10vh" width="85" height="73.7" viewBox="0 0 900 780"><path fill="#ef3340" d="M0 0h900v780H0z"/><path fill="#fdda25" d="M0 0h600v780H0z"/><path d="M0 0h300v780H0z"/></svg>
+        id: "37", nombre: "Bélgica", poblacion: "11 600 000", PIB: `${idPaisesDefinitivo[0].pib} millones de euros`, capital: "Bruselas", anioConstitucion: 1831, etniaMayoritaria: "Germanos (flamencos) y franceses", monedaActual: "Euro", idiomaOficial: "neerlandés, francés y alemán", banderita: `<svg xmlns="http://www.w3.org/2000/svg"  class="banderita" style="margin-right:10vh" width="85" height="73.7" viewBox="0 0 900 780"><path fill="#ef3340" d="M0 0h900v780H0z"/><path fill="#fdda25" d="M0 0h600v780H0z"/><path d="M0 0h300v780H0z"/></svg>
     `, height: "60vh",
     fontSize: null, fontSize2: null,
     curiosidad: `De país capital de la EU a estar muy dividido entre el norte (Flandes) y el sur (básicamente franceses), hasta el punto de querer la independencia del norte. Normal, quien quiere estar en un territorio donde la gastronomía más característica sean las patatas fritas, pudiendo elegir la mayor variedad de cervezas del mundo.`},
@@ -413,7 +413,7 @@ curiosidad: `Uno de los países más complejos de Europa: están divididos en 3 
     fontSize: "1.8rem", fontSize2: null,
     curiosidad: `Resumen: un puñado de franceses todavía más elitistas. Hasta el punto que tienen un rey para un país enano. ¿Te imaginas que un territorio algo más pequeño que Extremadura tuviese una realeza exclusiva? Pues eso.` },
     {
-        id: "39", nombre: "Francia", poblacion: "67 100 000", PIB: `${idPaisesDefinitivo[9].pib} millones de euros`, capital: "París", anioConstitucion: 1958, etniaMayoritaria: "Germanos", monedaActual: "Euro", idiomaOficial: "francés", banderita: `<?xml version="1.0" standalone="no"?>
+        id: "39", nombre: "Francia", poblacion: "67 100 000", PIB: `${idPaisesDefinitivo[9].pib} millones de euros`, capital: "París", anioConstitucion: 1958, etniaMayoritaria: "Franceses", monedaActual: "Euro", idiomaOficial: "francés", banderita: `<?xml version="1.0" standalone="no"?>
     <svg
         width="85"
         height="56.7"
@@ -429,7 +429,7 @@ curiosidad: `Uno de los países más complejos de Europa: están divididos en 3 
            -0.587785252292473129168705954639072768597652,0.809016994374947424102293417182819058860155" />
     
     </svg>`,
-        height: "62vh",
+        height: "45vh",
         fontSize: null, fontSize2: "1rem",
         curiosidad: `Solo te digo que la bandera de la descripción es realmente francesa. Y es que la Guayana Francesa (al lado de Surinam y encima de Brasil) es una provincia de Francia, pero tal cual, no es una colonia. En su momento en el referéndum de independencia votaron a favor de seguir en Francia.`
     },
@@ -517,6 +517,22 @@ curiosidad: `Uno de los países más complejos de Europa: están divididos en 3 
         height: "40vh",
         fontSize: "1.5rem", fontSize2: null,
         curiosidad: `Qué chulo que la bandera sea una oveja, que haya más ovejas que personas en esta isla sueca (la más grande del Mar Báltico), y que hasta sea una raza de oveja autóctona y única de esta región de Europa.`
+    },
+    
+    {
+        id: "100",
+        nombre: "Groenlandia (integrado en Dinamarca)",
+        poblacion: "60 000",
+        PIB: "Integrado en Dinamarca",
+        capital: "Nuuk",
+        anioConstitucion: 1953,
+        etniaMayoritaria: "Inuits",
+        monedaActual: "Corona danesa",
+        idiomaOficial: "groenlandés y danés",
+        banderita: `<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_Greenland.svg/1920px-Flag_of_Greenland.svg.png" class="banderita2" alt="bandera Groenlandia" width="120" height="85">`,
+        height: "45vh",
+        fontSize: "1.5rem", fontSize2: null,
+        curiosidad: `Es flipante que la isla más grande del mundo pertenezca a un país tan pequeño como es Dinamarca. Pero poco se habla de lo chula que está la bandera, porque representa el sol siendo reflejado en el hielo.`
     }
 
 ];

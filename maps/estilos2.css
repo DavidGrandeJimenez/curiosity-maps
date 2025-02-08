@@ -11,31 +11,6 @@ body {
     padding: 0;
 }
 
-.header {
-    background: linear-gradient(90deg, var(--azul-claro), var(--dorado-metalico));
-    color: rgb(0, 68, 68);
-    padding: 20px 0;
-    opacity: 0.8;
-    text-transform: uppercase;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    border-radius: 10px;
-
-}
-
-.container {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    margin: 0;
-    font-size: 2rem;
-}
-
 section {
     position: relative;
     width: 100%;
@@ -45,12 +20,11 @@ section {
 
 .aesthetic {
     position: absolute;
-    top: -15vh;
-    left: 2vh;
-    width: 99vw;
-    height: 99vh;
+    top: -1%;
+    height: 100%;
+    width: 100%;
     z-index: -1;
-    background-image: url("./imgs/bpf.gif");
+    background-image: url("/imgs/bpf.gif");
     background-size: cover;
     filter: blur(5px);
     filter: opacity(0.7);
@@ -63,21 +37,9 @@ section {
 
 }
 
-.svgIslandia,
-.svgIslandia2 {
-    position: absolute;
-    width: 95vw;
-    height: 85vh;
-    z-index: 1;
-    top: 34vh;
-    left: 43vw;
-    transform: scale(1.8);
-
-}
-
 .pais:hover {
-    stroke-opacity: 0.7;
-    stroke-width: 2px;
+    stroke-opacity: 0.7 !important;
+    stroke-width: 2px !important; 
     stroke: midnightblue;
 
 }
@@ -126,3 +88,69 @@ section {
     font-family: 'Times New Roman', Times, serif, sans-serif;
 
 }
+
+.banderita {
+    position: absolute;
+    top: 3vh;
+    right: 4vh;
+    border: 0.1rem solid midnightblue;
+    padding: 0;
+    margin: 0;
+
+}
+
+.banderita2 {
+    border: 0.1rem solid midnightblue;
+    padding: 0;
+    margin-left: 35%;
+
+}
+
+.curiosidades {
+    position: absolute;
+    background: linear-gradient(145deg, rgba(173, 216, 230, 0.8) 5%, aliceblue, rgba(173, 216, 230, 0.8)99%);
+    ;
+    right: 3vw;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 13vw;
+    height: 60vh;
+    padding: 3vh;
+    z-index: 30;
+    border-radius: 10px;
+    border: 3px solid rgba(0, 68, 68, 0.7);
+    ;
+
+}
+
+.tip,
+.tipPequeno {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    color: darkred;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+
+}
+
+.tip {
+    font-size: 3rem;
+}
+
+.curiosidad {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    color: black;
+    font-size: 1.1rem;
+    padding-top: 2vh;
+    margin: 0;
+    line-height: 1.5;
+}
+.map{
+    display: block;
+    margin: 0 auto;
+    transform: scale(1.3); 
+    margin-top: 10vh;
+}   
