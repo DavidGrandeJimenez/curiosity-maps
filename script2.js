@@ -26,7 +26,6 @@ const fetching = async () => {
         listaPaises = Object.entries(datosJson.dimension.geo.category.index).map(([siglas, id]) => ({ siglas, id }));
 
         consumicion = Object.values(datosJson.value).slice(0, 42);
-        console.dir(consumicion);
         consumicion.splice(29, 0, "?");
         consumicion.splice(32, 0, "?");
         consumicion.splice(41, 0, "?");
@@ -37,7 +36,6 @@ const fetching = async () => {
             pais.nombre = Object.values(datosJson.dimension.geo.category.label)[index];
 
         })
-        console.dir(listaPaises);
         //Poner consumicion en la listaPaises
         for (let w = 0, z = 0; w < listaPaises.length; w++) {
             if (w === 29 || w === 30 || w === 32) {

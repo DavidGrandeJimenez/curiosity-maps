@@ -1,4 +1,9 @@
-import descripciones from './paisesDescripcion.js';
+//import descripciones from './paisesDescripcion.js';
+
+const espana = document.querySelector('[name="espanita"]');
+espana.style.fill = "darkred";
+
+/*
 // 0. variables
 const boxCuriosidades = document.querySelector("#boxCuriosidades");
 const curiosidad = document.querySelector("#curiosidadID");
@@ -117,4 +122,4 @@ fetch(apiLink).then((response) => response.json().then(cada => {
             divFlotante.style.opacity = '1';
         }, 200);
     }))
-}));
+}));*/
