@@ -1,17 +1,17 @@
 //import descripciones from './paisesDescripcion.js';
 
-const espana = document.querySelector('[name="espanita"]');
-espana.style.fill = "darkred";
+//const espanita = document.querySelector('[name="espanita"]');
+const espanita = document.querySelector('.hispania');
+espanita.style.fill = "dodgerblue";
 
-/*
+
 // 0. variables
 const boxCuriosidades = document.querySelector("#boxCuriosidades");
 const curiosidad = document.querySelector("#curiosidadID");
 const titulo = document.querySelector("#tipID");
 
-const paisesNodeList = document.querySelectorAll("#paisG");
+const paisesNodeList = document.querySelectorAll(".pais");
 const paisesMapa = [...paisesNodeList];
-
 const divFlotante = document.createElement('div');
 divFlotante.classList.add("mi-clase");
 document.body.appendChild(divFlotante);
@@ -41,7 +41,7 @@ fetch(apiLink).then((response) => response.json().then(cada => {
             z++;
         }
     };
-    const paisesDescripcion = descripciones(listaPaisesApi); //Se pasa la listaPaisesApi para obtener todos los datos restantes de los paises
+    //const paisesDescripcion = descripciones(listaPaisesApi); //Se pasa la listaPaisesApi para obtener todos los datos restantes de los paises
 
 
     // 1. funciones:
@@ -50,7 +50,9 @@ fetch(apiLink).then((response) => response.json().then(cada => {
         cada.style.fill = "dodgerblue";
     });
 
+}));
 
+/*
     // 2. Correspondencia con el mouse
     // 2.1. Cambiar color y aparecer Curiosidad cuando mouseover
     paisesMapa.map((cada) => cada.addEventListener('mouseover', function (event) {
