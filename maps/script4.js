@@ -30,23 +30,18 @@ const fetching = async () => {
 
         });
 
-        listaPaises.splice(38, 0, { siglas: "UC", id: 38, nombre: "Ucrania" });
+        listaPaises.splice(38, 0, { siglas: "UC", id: 38, nombre: "Ukraine" });
         listaPaises.splice(39, 0, { siglas: "AN", id: 39, nombre: "Andorra" });
-        listaPaises.splice(40, 0, { siglas: "GR", id: 40, nombre: "Groenlandia" });
-        listaPaises.splice(41, 0, { siglas: "RU", id: 41, nombre: "Rusia" });
-        listaPaises.splice(42, 0, { siglas: "BY", id: 42, nombre: "Bielorrusia" });
-        listaPaises.splice(43, 0, { siglas: "CH", id: 43, nombre: "Suiza" });
-        listaPaises.splice(44, 0, { siglas: "MV", id: 44, nombre: "Moldavia" });
+        listaPaises.splice(40, 0, { siglas: "GR", id: 40, nombre: "Greenland" });
+        listaPaises.splice(41, 0, { siglas: "RU", id: 41, nombre: "Russia" });
+        listaPaises.splice(42, 0, { siglas: "BY", id: 42, nombre: "Belarus" });
+        listaPaises.splice(43, 0, { siglas: "CH", id: 43, nombre: "Switzeland" });
+        listaPaises.splice(44, 0, { siglas: "MV", id: 44, nombre: "Moldova" });
         //Poner consumicion en la listaPaises
         for (let w = 0, z = 0; w < listaPaises.length; w++) {
             if (w === 27 || w === 30 || w === 38 || w === 39 || w === 40 || w === 41 || w === 42 || w === 43 || w == 44) {
                 listaPaises[w].consumicion = "No hay datos sobre consumo eléctrico de este país en Eurostat";
             } else {
-                /*if (z == 29) {
-                    listaPaises[w].consumicion = consumicion[z + 1];
-                    z = z + 2;
-                }
-                else {*/
                 listaPaises[w].consumicion = consumicion[z];
                 z++;
             }
@@ -57,7 +52,6 @@ const fetching = async () => {
         paisesMapa.map(cadaUno => {
             cadaUno.addEventListener('mouseover', function (event) {
                 paisObjetivo = cadaUno.id;
-                console.log(paisObjetivo);
                 document.addEventListener("mousemove", function (event) {
                     // Obtener la posición actual del ratón
                     let x = event.clientX;
